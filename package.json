@@ -1,10 +1,14 @@
 {
     "name": "sanji",
     "version": "0.0.1",
+    "author": "chengpengcp9@gamil.com",
     "engines": {
         "node": ">=0.8.0"
     },
-    "author": "chengpengcp9@gamil.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/playwolsey/playwolsey.github.io"
+    },
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-concat": "~0.3.0",
@@ -12,7 +16,9 @@
         "grunt-contrib-cssmin": "~0.6.0",
         "grunt-contrib-uglify": "~0.2.0",
         "grunt-contrib-watch": "~0.4.0",
-        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-clean": "~0.5.0"
+    },
+    "dependencies": {
         "express": "~4.2.0",
         "static-favicon": "~1.0.0",
         "morgan": "~1.0.0",
@@ -20,7 +26,5 @@
         "body-parser": "~1.0.0",
         "debug": "~0.7.4",
         "jade": "~1.3.0"
-    },
-    "dependencies": {
     }
 }
