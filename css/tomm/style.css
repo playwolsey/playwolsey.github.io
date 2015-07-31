@@ -222,7 +222,7 @@ body, html { background: #f3efe8; }
 
 #loader { display: none; position: absolute; width: 179px; height: 87px; margin: -43px -89px; left: 50%; right: 50%; top: 50%; bottom: 50%; }
 
-#turnYourPhone { display: none; position: absolute; z-index: 400; width: 479px; height: 240px; margin: -120px -239px; background: url('../img/turn-your-phone.jpg') no-repeat; left: 50%; right: 50%; top: 50%; bottom: 50%; }
+/*#turnYourPhone { display: none; position: absolute; z-index: 400; width: 479px; height: 240px; margin: -120px -239px; background: url('../img/turn-your-phone.jpg') no-repeat; left: 50%; right: 50%; top: 50%; bottom: 50%; }*/
 
 #main { display: none; }
 #main ul { list-style: none; margin: 0px; padding: 0px; }
