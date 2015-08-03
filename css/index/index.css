@@ -1,0 +1,11 @@
+body, html { background: #f3efe8; }
+
+#loader {
+    display: none;
+    position: absolute;
+    width: 179px;
+    height: 87px;
+    margin: -43px -89px;
+    left: 50%;
+    top: 50%;
+}
