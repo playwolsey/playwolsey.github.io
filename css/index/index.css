@@ -9,3 +9,16 @@ body, html { background: #f3efe8; }
     left: 50%;
     top: 50%;
 }
+
+#main {
+    display: none;
+}
+#main ul {
+    list-style: none;
+}
+#main ul.bg li {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
