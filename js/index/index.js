@@ -57,7 +57,7 @@
         _isAutoPlayed: false,
         audioObj: document.querySelector('audio'),
         playMusic: function() {
-            $('.u-globalAudio').css('background-image','url(/img/index/play.png")');
+            $('.u-globalAudio').css('background-image','url(/img/index/play.png)');
             this.audioObj.play();
         },
         pauseMusic: function() {
