@@ -53,6 +53,30 @@
         }
     };
 
+    var _music = {
+        _isAutoPlayed: false,
+        audioObj: document.querySelector('audio'),
+        playMusic: function() {
+            $('.u-globalAudio').css('background-image','url(/img/index/play.png")');
+            this.audioObj.play();
+        },
+        pauseMusic: function() {
+            $('.u-globalAudio').css('background-image','url(/img/index/pause.png)');
+            this.audioObj.pause();
+        },
+        init: function() {
+            var _this=this;
+
+            $('.u-globalAudio').on("click",function(){
+                if(_this.audioObj.paused) {
+                    _this.playMusic();
+                } else {
+                    _this.pauseMusic();
+                }
+            });   
+        }
+    };
+
     var config = {
         isDebug: false,
         mainBox: ".main-box",
@@ -73,6 +97,16 @@
             anim(0);
             new lazyLoad({
                 container: $(_this.mainBox).get(1)
+            });
+
+            //播放音频
+            $("body").on("touchstart",function() {
+                !_music._isAutoPlayed ?
+                    (function() {
+                         _music.init();
+                         _music._isAutoPlayed = true;
+                         _music.playMusic();
+                    })() : "";
             });
         }
     };
@@ -161,4 +195,5 @@
     };
 
     _touch.init();
+
 })(Zepto, window);
