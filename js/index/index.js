@@ -31,8 +31,8 @@
         //}
 
         if (index === 15) {
-            $(".last-admin").addClass("scall animated");
-            $('.next_icon').hide();
+            //$(".last-admin").addClass("scall animated");
+            $('.next-icon').hide();
         }
     };
 
@@ -93,6 +93,11 @@
             for (var i = 0, len = $(config.mainBox).length; i < len; i++) {
                 this.touch(".main-box-" + i, i);
             }
+
+            //$(".to_link").on("click", function() {
+            //    var url = $(this).attr("href");
+            //    location.href=url;
+            //});
         },
 
         touch: function(el, index) {
