@@ -1,4 +1,5 @@
 ;(function($, win, undef) {
+    //懒加载方法
     var lazyLoad = function(obj) {
         this.container = obj.container || $("body");
         this.nodeName = obj.node || ".lazyload";
@@ -21,6 +22,7 @@
         this.init();
     };
 
+    //加载动画方法
     var anim = function(index) {
         //先移除所有动画样式，再给每一屏加进去，有几屏动画就有几个case，注意动画的class要先移除
         (function(){$(".removeable").removeClass("animated delay1 delay2 fadeIn scall");})();
@@ -36,6 +38,7 @@
         }
     };
 
+    //重置rem
     var remResize = {
         init: function() {
             var _this = this;
@@ -51,9 +54,10 @@
             $("html").css("font-size", $(win).width()/640*100 + "px");
             $(".cps-container").fadeIn(.3);
         }
-    };
+    },
 
-    var _music = {
+    //音频对象
+    _music = {
         _isAutoPlayed: false,
         audioObj: document.querySelector('audio'),
         playMusic: function() {
@@ -75,9 +79,9 @@
                 }
             });   
         }
-    };
+    },
 
-    var config = {
+    config = {
         isDebug: false,
         mainBox: ".main-box",
         log: function(a) {
@@ -117,10 +121,10 @@
     var _move = {
         distance: 0, //手指划过的距离
         touchtime: 0, //触摸的次数，避免多指触摸
-        index: 0, //当前滚屏的索引值
-        per: 0 //滚动时候改变高度的百分比
+        index: 0 //当前滚屏的索引值
     },
 
+    //触摸翻屏对象
     _touch = {
         init: function() {
             //通过循环给每一屏绑定触摸事件,注意节点的角标序号
