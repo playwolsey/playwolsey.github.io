@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>flappy</title>
+    <link rel="stylesheet" href="assets/flappy/css/reset.css">
+    <link rel="stylesheet" href="assets/flappy/css/main.css">
+</head>
+<body>
+
+<section id="container">
+    <section class="game-screen">
+        <section class="sky">
+            <div class="flyarea">
+                <div class="ceiling animated"></div><!-- end .ceiling -->
+
+                <div class="bird animated"></div><!-- end .bird -->
+
+                <div class="splash"></div><!-- end .splash -->
+
+                <div class="score-board">
+                    <div class="medal"></div><!-- end .medal -->
+                    <div class="current-score"></div><!-- end .current-score -->
+                    <div class="high-score"></div><!-- end .high-score -->
+                    <div class="replay"><img src="assets/flappy/res/replay.png" alt="replay"></div><!-- end .replay -->
+                </div><!-- end .score-board -->
+
+                <!--<div class="pipe animated">
+                    <div class="pipe-upper" style="height: 100px;"></div>
+                    <div class="pipe-lower" style="height: 150px;"></div>
+                </div> end .pipe-->
+            </div><!-- end .flyarea -->
+        </section><!-- end .sky -->
+
+        <section class="land animated"></section><!-- end .land -->
+    </section><!-- end .game-screen -->
+</section><!-- end #container -->
+    
+<script type="text/javascript" src="assets/flappy/js/main.js"></script>
+</body>
+</html>
