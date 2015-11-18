@@ -1,5 +1,5 @@
 title: JavaScript Front-End Web App Tutorial Part 1 Building a Minimal App in Seven Steps
-date: 2015-11-04 11:39:17
+date: 2015-11-18 11:39:17
 tags: 翻译
 ---
 
