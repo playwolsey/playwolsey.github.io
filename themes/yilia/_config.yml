@@ -6,15 +6,15 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/playwolsey"
+  #weibo: "#"
+  rss: "https://github.com/playwolsey"
+  #zhihu: "#"
   #douban: "#"
-  #mail: "#"
+  #mail: "mailto:chengpengcp9@163.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/playwolsey"
   #linkedin: "#"
 
 rss: /atom.xml
