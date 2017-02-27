@@ -1,0 +1,28 @@
+interior({
+    "title": "works",
+    "total": 250,
+    "works": [
+        {
+            cover: "http://www.bobchen.cn/upfile/20161206/584619ee26c32.jpg",
+            id: 10003,
+            width: 840,
+            height: 560,
+            desc: {
+                name: '临平日料店',
+                ename: 'LINPING SAKATE LZAKAYA',
+                tag: '2016 Interior'
+            }
+        },
+        {
+            cover: "http://www.bobchen.cn/upfile/20161102/5819a05905d5f.jpg",
+            id: 100043,
+            width: 560,
+            height: 840,
+            desc: {
+                name: "临平日料店",
+                ename: "LINPING SAKATE LZAKAYA",
+                tag: "2016 Interior"
+            }
+        }
+    ]
+});
