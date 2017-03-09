@@ -1,0 +1,39 @@
+sakate({
+    "name": "临平酒田居酒屋",
+    "ename": "LINPING SAKATE LZAKAYA",
+    "designer": 'Quanwen Interior Design',
+    "year": 2016,
+    "client": 'The LINPING SAKATE LZAKAYA',
+    "meta": {
+        "keywords": "杭州日料店设计,居酒屋设计,日本料理设计,日式烤肉店设计,日本传统居酒屋设计",
+        "description": "临平酒田居酒屋"
+    },
+    "descs": [
+        '田居酒屋位于杭州临平。',
+        '设计延续的日本传统居酒屋的精神、功能及美学理念，用现代的手法抽减传统。每一个日式元素我们都尽量简化，这种做减法的方式，在营造居酒屋传统浓郁氛围的同时，也透露出现代的精致感。 项目营业面积不到90平，两开间，空间狭长，甲方需3个包厢 ，一个巨大的寿司吧台 ，同时容纳40人就餐，如何在这么小的空间内满足多种功能需求成为了一个巨大的挑战。'
+    ],
+    "imgs": [
+        'http:/res/upload/sakate/0.jpg',
+        'http:/res/upload/sakate/1.jpg',
+        'http:/res/upload/sakate/2.jpg',
+        'http:/res/upload/sakate/3.jpg',
+        'http:/res/upload/sakate/4.jpg',
+        'http:/res/upload/sakate/5.jpg',
+        'http:/res/upload/sakate/6.jpg',
+        'http:/res/upload/sakate/7.jpg',
+        'http:/res/upload/sakate/8.jpg',
+        'http:/res/upload/sakate/11.jpg',
+        'http:/res/upload/sakate/12.jpg',
+        'http:/res/upload/sakate/13.jpg',
+        'http:/res/upload/sakate/14.jpg',
+        'http:/res/upload/sakate/17.jpg',
+        'http:/res/upload/sakate/18.jpg',
+        'http:/res/upload/sakate/19.jpg',
+        'http:/res/upload/sakate/20.jpg',
+        'http:/res/upload/sakate/25.jpg',
+        'http:/res/upload/sakate/26.jpg',
+        'http:/res/upload/sakate/28.jpg',
+        'http:/res/upload/sakate/50.jpg',
+        'http:/res/upload/sakate/51.jpg'
+    ]
+});

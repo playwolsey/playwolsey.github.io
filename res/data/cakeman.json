@@ -1,0 +1,34 @@
+cakeman({
+    "name": "“饼男”肉夹馍(网易店)",
+    "ename": "“CAKE MAN” CHINESE HAMBURGER",
+    "designer": 'Quanwen Interior Design',
+    "year": 2016,
+    "client": 'The “Cake man" Chinese hamburger',
+    "meta": {
+        "keywords": "杭州肉夹馍设计,饼男肉夹馍,饼男肉夹馍设计,网易肉夹馍",
+        "description": "饼男肉夹馍"
+    },
+    "descs": [
+        '“饼男”肉夹馍是杭州新兴快餐品牌，售卖改良的西北风味石烤馍，本项目是位于网易的全国首家实体店。设计着力于打破大众对传统小吃简陋低劣的印象，打造年轻活力的店铺形象。延续惯用的几何框架与体快穿插的设计手法，简单又精致。店内面积仅有12㎡，分为前吧台与后厨两个部分，前吧台是玻璃透明体快，巨型机械折叠窗控制着室内外关系。',
+'“Cake man" Chinese hamburger?is a emerging fast-food brand?in Hangzhou, selling improved northwest flavor stone baked bun.  As the first attempt of the brand image, the design focus on breaking the traditional impression of the poor traditional shabby, to create a young and dynamic image of the shop. Continuation of the usual geometric frame and the body quickly interspersed with the design practices, the design is simple and sophisticated. The store area is only 12 square meters, which is divided into two parts-the former bar and the kitchen. The former bar is a glass transparent body, giant mechanical folding window controlling the relations of indoor and outdoor and the kitchen is a solid wood body.'
+    ],
+    "imgs": [
+        'http:/res/upload/cakeman/0.jpg',
+        'http:/res/upload/cakeman/1-1.jpg',
+        'http:/res/upload/cakeman/1-2.jpg',
+        'http:/res/upload/cakeman/2.jpg',
+        'http:/res/upload/cakeman/3.jpg',
+        'http:/res/upload/cakeman/4.jpg',
+        'http:/res/upload/cakeman/4-1.jpg',
+        'http:/res/upload/cakeman/4-2.jpg',
+        'http:/res/upload/cakeman/5.jpg',
+        'http:/res/upload/cakeman/6.jpg',
+        'http:/res/upload/cakeman/7.jpg',
+        'http:/res/upload/cakeman/8.jpg',
+        'http:/res/upload/cakeman/9.jpg',
+        'http:/res/upload/cakeman/9-1.jpg',
+        'http:/res/upload/cakeman/10.jpg',
+        'http:/res/upload/cakeman/12.jpg',
+        'http:/res/upload/cakeman/13.jpg'
+    ]
+});

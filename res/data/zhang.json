@@ -1,0 +1,25 @@
+zhang({
+    "name": "张校长宅",
+    "ename": "ZHANGYONG DOMESTIC OUTFIT DESIGN",
+    "designer": 'Quanwen Interior Design',
+    "year": 2015,
+    "client": 'The Zhejiang University City College',
+    "meta": {
+        "keywords": "杭州孪生画室,办公室设计,办公空间,接待室,中国美术学院",
+        "description": "这是全文设计为浙大城市学院学生创业基地设计的一个具有时尚感的复合空间，运用木质框架体块系统，提拉、推伸对空间进行包裹，弥补空间缺陷，创造活力年轻富有张力的空间，搭配简约明快的北欧风格家具，营造轻松、优雅、和谐的氛围。"
+    },
+    "descs": [
+        '这是全文设计为浙大城市学院学生创业基地设计的一个具有时尚感的复合空间，运用木质框架体块系统，提拉、推伸对空间进行包裹，弥补空间缺陷，创造活力年轻富有张力的空间，搭配简约明快的北欧风格家具，营造轻松、优雅、和谐的氛围。'
+    ],
+    "imgs": [
+        'http:/res/upload/zhang/1.jpg',
+        'http:/res/upload/zhang/1-1.jpg',
+        'http:/res/upload/zhang/2.jpg',
+        'http:/res/upload/zhang/3.jpg',
+        'http:/res/upload/zhang/4.jpg',
+        'http:/res/upload/zhang/5.jpg',
+        'http:/res/upload/zhang/6.jpg',
+        'http:/res/upload/zhang/7.jpg',
+        'http:/res/upload/zhang/8.jpg'
+    ]
+});

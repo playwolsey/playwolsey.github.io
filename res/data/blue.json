@@ -1,0 +1,32 @@
+blue({
+    "name": "BlueBlue亲子游泳(杭州店)",
+    "ename": "HANGZHOU BLUEBLUE BABY SWIM",
+    "designer": 'Quanwen Interior Design',
+    "year": 2016,
+    "client": 'The HANGZHOU BLUEBLUE BABY SWIM',
+    "meta": {
+        "keywords": "亲子游泳设计,幼儿空间设计,幼儿游泳中心设计,幼儿园设计,早教空间设计",
+        "description": "BLUE BLUE亲子游泳中心"
+    },
+    "descs": [
+        'BlueBlue亲子游泳成立于2013年，杭州中心是Blue在浙江的第6家店。Blue从英国为杭州0-6岁的小宝贝带来真正专业的亲子游泳。Blue拥有符合英国STA标准的婴幼儿游泳馆。'
+    ],
+    "imgs": [
+        'http:/res/upload/blue/1.jpg',
+        'http:/res/upload/blue/2.jpg',
+        'http:/res/upload/blue/3.jpg',
+        'http:/res/upload/blue/4.jpg',
+        'http:/res/upload/blue/5.jpg',
+        'http:/res/upload/blue/6.jpg',
+        'http:/res/upload/blue/7.jpg',
+        'http:/res/upload/blue/8.jpg',
+        'http:/res/upload/blue/9.jpg',
+        'http:/res/upload/blue/10.jpg',
+        'http:/res/upload/blue/11.jpg',
+        'http:/res/upload/blue/12.jpg',
+        'http:/res/upload/blue/13.jpg',
+        'http:/res/upload/blue/14.jpg',
+        'http:/res/upload/blue/15.jpg',
+        'http:/res/upload/blue/16.jpg'
+    ]
+});

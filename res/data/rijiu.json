@@ -1,0 +1,35 @@
+rijiu({
+    "name": '南京日久寿喜烧',
+    "ename": 'NANJING “RIJIU”SUKIYAKIi',
+    "designer": 'Quanwen Interior Design',
+    "year": 2016,
+    "client": 'The Nanjing“ RiuJiu” sukiyaki',
+    "meta": {
+        "keywords": "寿喜烧设计,日料店设计,居酒屋设计,日本料理设计,日式烤肉店设计,日本传统居酒屋设计",
+        "description": "南京寿喜烧"
+    },
+    "descs": [
+        '全文设计受日久品牌委托，将品牌美食体验通过建筑语言表达。',
+        '该店主打日本传统美食寿喜锅，强调食材的新鲜味美。设计试图重新阐释“私密空间”与“开敞空间”的关系。通过材料的特性界定不同的空间，并且形成对话。铁框架界定两个半开放区域：收银处与包厢区。包厢区温暖质感的木材料进一步界定封闭空间。金属框架与木材的运用，模糊结构与材料之间的界定，让整个餐饮环境通透自由。'
+    ],
+    "imgs": [
+        'http:/res/upload/rijiu/0.jpg',
+        'http:/res/upload/rijiu/1.jpg',
+        'http:/res/upload/rijiu/2.jpg',
+        'http:/res/upload/rijiu/3.jpg',
+        'http:/res/upload/rijiu/4.jpg',
+        'http:/res/upload/rijiu/5.jpg',
+        'http:/res/upload/rijiu/6.jpg',
+        'http:/res/upload/rijiu/7.jpg',
+        'http:/res/upload/rijiu/10.jpg',
+        'http:/res/upload/rijiu/11.jpg',
+        'http:/res/upload/rijiu/12.jpg',
+        'http:/res/upload/rijiu/13.jpg',
+        'http:/res/upload/rijiu/14.jpg',
+        'http:/res/upload/rijiu/15.jpg',
+        'http:/res/upload/rijiu/16.jpg',
+        'http:/res/upload/rijiu/17.jpg',
+        'http:/res/upload/rijiu/18.jpg',
+        'http:/res/upload/rijiu/19.jpg'
+    ]
+});

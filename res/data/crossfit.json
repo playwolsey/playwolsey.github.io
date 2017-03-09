@@ -1,0 +1,21 @@
+crossfit({
+    "name": "CrossFit健身房 （汇合店）",
+    "ename": "CROSSFIT GYMNASIUM",
+    "designer": 'Quanwen Interior Design',
+    "year": 2015,
+    "client": 'The CROSSFIT GYMNASIUM',
+    "meta": {
+        "keywords": "健身房设计,crossfit健身房设计,健身空间",
+        "description": "汇和城健身房"
+    },
+    "descs": [
+        'CrossFit 是近年来全球发展速度最快的健身项目，讲究社群基础的运动。空间设计时尚不失稳重，科技感十足。兼顾低成本造价的基础上营造卓越的活力氛围。'
+    ],
+    "imgs": [
+        'http:/res/upload/crossfit/1.jpg',
+        'http:/res/upload/crossfit/2.jpg',
+        'http:/res/upload/crossfit/3.jpg',
+        'http:/res/upload/crossfit/4.jpg',
+        'http:/res/upload/crossfit/5.jpg'
+    ]
+});

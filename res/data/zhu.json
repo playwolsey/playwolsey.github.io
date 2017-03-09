@@ -1,0 +1,26 @@
+zhu({
+    "name": "筑咖啡",
+    "ename": "THE ZHU CAFE",
+    "designer": 'Quanwen Interior Design',
+    "year": 2015,
+    "client": '杭州筑咖文化有限公司',
+    "meta": {
+        "keywords": "复合咖啡厅,设计工作室集合空间,咖啡与办公集合空间",
+        "description": "小隐隐于野，大隐隐于市。咖啡与办公集合空间，为当地社区提供舒适的交流空间."
+    },
+    "descs": [
+        '小隐隐于野，大隐隐于市。咖啡与办公集合空间，为当地社区提供舒适的交流空间。'
+    ],
+    "imgs": [
+        'http:/res/upload/zhu/1.jpg',
+        'http:/res/upload/zhu/2.jpg',
+        'http:/res/upload/zhu/3.jpg',
+        'http:/res/upload/zhu/4.jpg',
+        'http:/res/upload/zhu/5.jpg',
+        'http:/res/upload/zhu/6.jpg',
+        'http:/res/upload/zhu/7.jpg',
+        'http:/res/upload/zhu/10.jpg',
+        'http:/res/upload/zhu/11.jpg',
+        'http:/res/upload/zhu/12.jpg'
+    ]
+});

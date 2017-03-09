@@ -1,0 +1,38 @@
+principal({
+    "name": "杭州孪生画室 张校长办公室",
+    "ename": "TWIN ART EDUCATION Principal's Office",
+    "designer": 'Quanwen Interior Design',
+    "year": 2015,
+    "client": 'Twin Art Education 杭州孪生文化艺术有限公司',
+    "meta": {
+        "keywords": "杭州孪生画室,办公室设计,办公空间,接待室,中国美术学院",
+        "description": "孪生画室校长办公空间"
+    },
+    "descs": [
+        '为国内顶尖的艺术类高考培训机构杭州孪生画室设计的校长办公空间，融合绘画办公接待多种功能，灵活流通的空间设计，现代简约流露中式禅意韵味。'
+    ],
+    "imgs": [
+        'http:/res/upload/principal/0-1.jpg',
+        'http:/res/upload/principal/0-2.jpg',
+        'http:/res/upload/principal/0-3.jpg',
+        'http:/res/upload/principal/0-4.jpg',
+        'http:/res/upload/principal/0-5.jpg',
+        'http:/res/upload/principal/0-6.jpg',
+        'http:/res/upload/principal/0-7.jpg',
+        'http:/res/upload/principal/1.jpg',
+        'http:/res/upload/principal/2c.jpg',
+        'http:/res/upload/principal/3.jpg',
+        'http:/res/upload/principal/4.jpg',
+        'http:/res/upload/principal/5.jpg',
+        'http:/res/upload/principal/6.jpg',
+        'http:/res/upload/principal/7.jpg',
+        'http:/res/upload/principal/8.jpg',
+        'http:/res/upload/principal/9.jpg',
+        'http:/res/upload/principal/10.jpg',
+        'http:/res/upload/principal/12.jpg',
+        'http:/res/upload/principal/13.jpg',
+        'http:/res/upload/principal/14.jpg',
+        'http:/res/upload/principal/15.jpg',
+        'http:/res/upload/principal/16.jpg'
+    ]
+});

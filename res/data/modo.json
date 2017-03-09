@@ -1,0 +1,22 @@
+modo({
+    "name": '魔豆健身',
+    "ename": 'ModoFitness gym',
+    "designer": 'RE BAO visual design',
+    "year": 2016,
+    "client": '德信集团 Desjardins Group-ModoFitness',
+    "meta": {
+        "keywords": "魔豆健身",
+        "description": "为德信集团旗下健身品牌-ModoFitness 所做的视觉设计。"
+    },
+    "descs": [
+        '为德信集团旗下健身品牌-ModoFitness 所做的视觉设计。'
+    ],
+    "imgs": [
+        'http:/res/upload/modo/1.jpg',
+        'http:/res/upload/modo/2.jpg',
+        'http:/res/upload/modo/3.jpg',
+        'http:/res/upload/modo/4.jpg',
+        'http:/res/upload/modo/5.jpg',
+        'http:/res/upload/modo/6.jpg'
+    ]
+});

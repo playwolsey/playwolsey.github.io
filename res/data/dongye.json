@@ -1,0 +1,33 @@
+dongye({
+    "name": "杭州东野国际健身俱乐部",
+    "ename": "HANGZHOU DONGYE SPORTS CLUB",
+    "designer": 'Quanwen Interior Design',
+    "year": 2016,
+    "client": '杭州东野体育策划有限公司',
+    "meta": {
+        "keywords": "健身房设计,散打房设计",
+        "description": "杭州东野国际俱乐部"
+    },
+    "descs": [
+        ''
+    ],
+    "imgs": [
+        'http:/res/upload/dongye/0.jpg',
+        'http:/res/upload/dongye/1.jpg',
+        'http:/res/upload/dongye/2.jpg',
+        'http:/res/upload/dongye/3.jpg',
+        'http:/res/upload/dongye/4.jpg',
+        'http:/res/upload/dongye/5.jpg',
+        'http:/res/upload/dongye/6.jpg',
+        'http:/res/upload/dongye/7.jpg',
+        'http:/res/upload/dongye/7-1.jpg',
+        'http:/res/upload/dongye/8.jpg',
+        'http:/res/upload/dongye/9.jpg',
+        'http:/res/upload/dongye/10.jpg',
+        'http:/res/upload/dongye/11.jpg',
+        'http:/res/upload/dongye/12.jpg',
+        'http:/res/upload/dongye/13.jpg',
+        'http:/res/upload/dongye/14.jpg',
+        'http:/res/upload/dongye/HH.jpg'
+    ]
+});

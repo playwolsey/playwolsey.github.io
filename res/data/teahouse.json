@@ -1,0 +1,27 @@
+teahouse({
+    "name": "杭州孪生画室 校园茶室",
+    "ename": "TWIN ART EDUCATION Teahouse",
+    "designer": 'Quanwen Interior Design',
+    "year": 2015,
+    "client": 'Twin Art Education 杭州孪生文化艺术有限公司',
+    "meta": {
+        "keywords": "杭州孪生画室,茶室设计,混凝土空间,清水混凝土茶室,日式禅意",
+        "description": "孪生校园内的清水混凝土茶室，日式禅意风格，灵动、简素，营造心灵平和、安宁的氛围。石座摆放在内，不轻不重，增添了自然的一笔。"
+    },
+    "descs": [
+        '孪生校园内的清水混凝土茶室，日式禅意风格，灵动、简素，营造心灵平和、安宁的氛围。石座摆放在内，不轻不重，增添了自然的一笔。'
+    ],
+    "imgs": [
+        'http:/res/upload/teahouse/1.jpg',
+        'http:/res/upload/teahouse/1-2.jpg',
+        'http:/res/upload/teahouse/2.jpg',
+        'http:/res/upload/teahouse/3.jpg',
+        'http:/res/upload/teahouse/4.jpg',
+        'http:/res/upload/teahouse/5.jpg',
+        'http:/res/upload/teahouse/6.jpg',
+        'http:/res/upload/teahouse/7.jpg',
+        'http:/res/upload/teahouse/7-1.jpg',
+        'http:/res/upload/teahouse/8c.jpg',
+        'http:/res/upload/teahouse/9.jpg'
+    ]
+});
