@@ -9,8 +9,8 @@ visual({
             height: 392,
             desc: {
                 name: '魔豆健身',
-                ename: 'ModoFitness gym',
-                tag: '2016 Visual design'
+                ename: 'MODOFITNESS GYM',
+                tag: '2016.09 Visual design'
             }
         },
         { 
@@ -20,8 +20,8 @@ visual({
             height: 393,
             desc: {
                 name: "MQ Lounge Bar 视觉设计",
-                ename: "MQ Lounge Bar visual design",
-                tag: '2016 Visual design'
+                ename: "MQ LOUNGE BAR VISUAL DESIGN",
+                tag: '2016.08 Visual design'
             }
         },
         { 
@@ -32,7 +32,7 @@ visual({
             desc: {
                 name: "LAKE SIDE.湖179",
                 ename: "LAKE SIDE",
-                tag: '2016 Visual design'
+                tag: '2016.08 Visual design'
             }
         }
     ]

@@ -1,0 +1,35 @@
+dt({
+    "name": '上海枫泾丁蹄面馆',
+    "ename": 'SHANGHAI FENGJING BUTYL STUMBLES NOODLE HOUSE',
+    "designer": 'Quanwen Interior Design',
+    "year": '2016.12',
+    "client": 'The FENGJING District Government',
+    "meta": {
+        "keywords": "上海枫泾丁蹄面馆,枫泾丁蹄面馆,面馆设计,传统小吃店设计",
+        "description": "上海枫泾丁蹄面馆"
+    },
+    "descs": [
+        '枫泾古镇地处上海西南，为典型的江南水乡古镇。枫泾丁蹄面馆是以当地特产丁蹄为卖点的传统小吃店。',
+        '功能布局收银后厨卡座区域划分明确，运用现代科学高效的流线布置，保证大量游客高翻桌率。材料使用青石板地面，锈铁板屏风，百年树龄老木板桌面，传统与现代融合，易于维护经久耐用，保留传统文化元素的底蕴，厚重大气不失精致与时尚。',
+        '项目施工中，尽请期待。'
+    ],
+    "imgs": [
+        'http:/res/upload/dt/1.jpg',
+        'http:/res/upload/dt/2.jpg',
+        'http:/res/upload/dt/3.jpg',
+        'http:/res/upload/dt/4.jpg',
+        'http:/res/upload/dt/5.jpg',
+        'http:/res/upload/dt/6.jpg',
+        'http:/res/upload/dt/7.jpg',
+        'http:/res/upload/dt/8.jpg',
+        'http:/res/upload/dt/9.jpg',
+        'http:/res/upload/dt/10.jpg',
+        'http:/res/upload/dt/11.jpg',
+        'http:/res/upload/dt/12.jpg',
+        'http:/res/upload/dt/13.jpg',
+        'http:/res/upload/dt/14.jpg',
+        'http:/res/upload/dt/15.jpg',
+        'http:/res/upload/dt/16.jpg',
+        'http:/res/upload/dt/17.jpg'
+    ]
+});

@@ -3,157 +3,168 @@ interior({
     "total": 14,
     "works": [
         {
-            cover: "/res/upload/rijiu/0.jpg",
-            id: 'rijiu',
-            width: 1200,
-            height: 797,
-            desc: {
-                name: '南京日久寿喜烧',
-                ename: 'NANJING “RIJIU”SUKIYAKIi',
-                tag: '2016 Interior'
+            "cover": "/res/upload/dt/cover.jpg",
+            "id": 'dt',
+            "width": 1125,
+            "height": 750,
+            "desc": {
+                "name": '上海枫泾丁蹄面馆',
+                "ename": 'SHANGHAI FENGJING BUTYL STUMBLES NOODLE HOUSE',
+                "tag": '2016.12 Interior'
+            }
+        },
+        {
+            "cover": "/res/upload/rijiu/cover.jpg",
+            "id": 'rijiu',
+            "width": 1000,
+            "height": 1000,
+            "desc": {
+                "name": '南京日久寿喜烧',
+                "ename": 'NANJING “RIJIU”SUKIYAKIi',
+                "tag": '2016.11 Interior'
             }
         },
         { 
-            cover: "/res/upload/cakeman/cover.jpg",
-            id: 'cakeman',
-            width: 1600,
-            height: 1066,
-            desc: {
-                name: "“饼男”肉夹馍(网易店)",
-                ename: "“CAKE MAN” CHINESE HAMBURGER",
-                tag: "2016 Interior"
+            "cover": "/res/upload/cakeman/cover.jpg",
+            "id": 'cakeman',
+            "width": 1344,
+            "height": 2016,
+            "desc": {
+                "name": "“饼男”肉夹馍(网易店)",
+                "ename": "“CAKE MAN” CHINESE HAMBURGER",
+                "tag": "2016.07 Interior"
             }
         },
         {
-            cover: "/res/upload/dongye/0.jpg",
-            id: 'dongye',
-            width: 1600,
-            height: 1066,
-            desc: {
-                name: "杭州东野国际健身俱乐部",
-                ename: "HANGZHOU DONGYE SPORTS CLUB",
-                tag: "2015 Interior"
+            "cover": "/res/upload/dongye/2.jpg",
+            "id": 'dongye',
+            "width": 1600,
+            "height": 1066,
+            "desc": {
+                "name": "杭州东野国际健身俱乐部",
+                "ename": "HANGZHOU DONGYE SPORTS CLUB",
+                "tag": "2016.05 Interior"
             }
         },
         {
-            cover: "/res/upload/sakate/1.jpg",
-            id: 'sakate',
-            width: 1500,
-            height: 1000,
-            desc: {
-                name: "临平酒田居酒屋",
-                ename: "LINPING SAKATE LZAKAYA",
-                tag: "2015 Interior"
+            "cover": "/res/upload/blue/cover.jpg",
+            "id": 'blue',
+            "width": 3726,
+            "height": 5589,
+            "desc": {
+                "name": "BlueBlue亲子游泳(杭州店)",
+                "ename": "HANGZHOU BLUEBLUE BABY SWIM",
+                "tag": "2016.03 Interior"
             }
         },
         {
-            cover: "/res/upload/blue/cover.jpg",
-            id: 'blue',
-            width: 3857,
-            height: 2571,
-            desc: {
-                name: "BlueBlue亲子游泳(杭州店)",
-                ename: "HANGZHOU BLUEBLUE BABY SWIM",
-                tag: "2015 Interior"
+            "cover": "/res/upload/sakate/1.jpg",
+            "id": 'sakate',
+            "width": 1300,
+            "height": 1300,
+            "desc": {
+                "name": "临平酒田居酒屋",
+                "ename": "LINPING SAKATE LZAKAYA",
+                "tag": "2016.04 Interior"
             }
         },
         {
-            cover: "/res/upload/space/cover.jpg",
-            id: 'space',
-            width: 1200,
-            height: 799,
-            desc: {
-                name: "浙江大学众创空间 咖啡厅(城市学院)",
-                ename: "ZHEJIANG UNIVERSITY CITY COLLEGE MARKER SPACE",
-                tag: "2015 Interior"
+            "cover": "/res/upload/zhang/cover.jpg",
+            "id": 'zhang',
+            "width": 1120,
+            "height": 1120,
+            "desc": {
+                "name": "张校长宅",
+                "ename": "ZHANGYONG DOMESTIC OUTFIT DESIGN",
+                "tag": "2015.12 Interior"
             }
         },
         {
-            cover: "/res/upload/zhang/cover.jpg",
-            id: 'zhang',
-            width: 1120,
-            height: 1120,
-            desc: {
-                name: "张校长宅",
-                ename: "ZHANGYONG DOMESTIC OUTFIT DESIGN",
-                tag: "2015 Interior"
+            "cover": "/res/upload/tai/cover.jpg",
+            "id": 'tai',
+            "width": 2891,
+            "height": 1640,
+            "desc": {
+                "name": "泰时光泰国餐厅",
+                "ename": "TAISHIGUANG THAI RESTAURANT",
+                "tag": "2015.12 Interior"
             }
         },
         {
-            cover: "/res/upload/shaishe/cover.jpg",
-            id: 'shaishe',
-            width: 1600,
-            height: 1066,
-            desc: {
-                name: "晒·舍 复合咖啡厅",
-                ename: "SHAI·SHE COMPOSITE CAFE",
-                tag: "2015 Interior"
+            "cover": "/res/upload/space/cover.jpg",
+            "id": 'space',
+            "width": 799,
+            "height": 799,
+            "desc": {
+                "name": "浙江大学众创空间 咖啡厅(城市学院)",
+                "ename": "ZHEJIANG UNIVERSITY CITY COLLEGE MARKER SPACE",
+                "tag": "2016.02 Interior"
             }
         },
         {
-            cover: "/res/upload/tai/cover.jpg",
-            id: 'tai',
-            width: 2000,
-            height: 1332,
-            desc: {
-                name: "泰时光泰国餐厅",
-                ename: "TAISHIGUANG THAI RESTAURANT",
-                tag: "2015 Interior"
+            "cover": "/res/upload/teahouse/cover.jpg",
+            "id": 'teahouse',
+            "width": 1530,
+            "height": 1530,
+            "desc": {
+                "name": "杭州孪生画室 校园茶室",
+                "ename": "TWIN ART EDUCATION TEAHOUSE",
+                "tag": "2015.06 Interior"
             }
         },
         {
-            cover: "/res/upload/crossfit/cover.jpg",
-            id: 'crossfit',
-            width: 1600,
-            height: 1066,
-            desc: {
-                name: "CrossFit健身房 （汇合店）",
-                ename: "CROSSFIT GYMNASIUM",
-                tag: "2015 Interior"
+            "cover": "/res/upload/principal/cover.jpg",
+            "id": 'principal',
+            "width": 800,
+            "height": 1200,
+            "desc": {
+                "name": "杭州孪生画室 张校长办公室",
+                "ename": "TWIN ART EDUCATION PRINCIPAL'S OFFICE",
+                "tag": "2015.05 Interior"
             }
         },
         {
-            cover: "/res/upload/zhu/cover.jpg",
-            id: 'zhu',
-            width: 1195,
-            height: 797,
-            desc: {
-                name: "筑咖啡",
-                ename: "THE ZHU CAFE",
-                tag: "2015 Interior"
+            "cover": "/res/upload/shaishe/cover.jpg",
+            "id": 'shaishe',
+            "width": 1600,
+            "height": 1066,
+            "desc": {
+                "name": "晒·舍 复合咖啡厅",
+                "ename": "SHAI·SHE COMPOSITE CAFE",
+                "tag": "2015.12 Interior"
             }
         },
         {
-            cover: "/res/upload/teahouse/8c.jpg",
-            id: 'teahouse',
-            width: 2784,
-            height: 2530,
-            desc: {
-                name: "杭州孪生画室 校园茶室",
-                ename: "TWIN ART EDUCATION Teahouse",
-                tag: "2015 Interior"
+            "cover": "/res/upload/crossfit/cover.jpg",
+            "id": 'crossfit',
+            "width": 1600,
+            "height": 1066,
+            "desc": {
+                "name": "CrossFit健身房 （汇合店）",
+                "ename": "CROSSFIT GYMNASIUM",
+                "tag": "2015.08 Interior"
             }
         },
         {
-            cover: "/res/upload/principal/2c.jpg",
-            id: 'principal',
-            width: 800,
-            height: 1200,
-            desc: {
-                name: "杭州孪生画室 张校长办公室",
-                ename: "TWIN ART EDUCATION Principal's Office",
-                tag: "2015 Interior"
+            "cover": "/res/upload/zhu/cover.jpg",
+            "id": 'zhu',
+            "width": 1195,
+            "height": 797,
+            "desc": {
+                "name": "筑咖啡",
+                "ename": "THE ZHU CAFE",
+                "tag": "2015.07 Interior"
             }
         },
         {
-            cover: "/res/upload/academy/cover.jpg",
-            id: 'academy',
-            width: 2000,
-            height: 1332,
-            desc: {
-                name: "中国美术学院咖啡厅设计(象山校区)",
-                ename: "CHINA ACADEMY OF ART CAFE",
-                tag: "2015 Interior"
+            "cover": "/res/upload/academy/cover.jpg",
+            "id": 'academy',
+            "width": 2000,
+            "height": 1332,
+            "desc": {
+                "name": "中国美术学院咖啡厅设计(象山校区)",
+                "ename": "CHINA ACADEMY OF ART CAFE",
+                "tag": "2015.04 Interior"
             }
         }
     ]
