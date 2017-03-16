@@ -82,8 +82,8 @@ interior({
         {
             "cover": "/res/upload/tai/cover.jpg",
             "id": 'tai',
-            "width": 2891,
-            "height": 1640,
+            "width": 1230,
+            "height": 820,
             "desc": {
                 "name": "泰时光泰国餐厅",
                 "ename": "TAISHIGUANG THAI RESTAURANT",
