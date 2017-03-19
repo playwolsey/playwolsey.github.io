@@ -41,13 +41,15 @@ div.swiper-button-prev {background-image:url(/res/img/back.png);}
         <div class="swiper-wrap">
             <swiper :options="swiperOption" ref="detailSwiper">
                 <swiper-slide v-for="work in works" :class="work.current">
-                    <router-link :to="{name:'detail', params: {id:work.id}}">
+                    <!--<router-link :to="{name:'detail', params: {id:work.id}}">-->
+                    <a href="javascript:void(0)" @click="changeWork(work.id)">
                         <img :src="work.cover">
                         <div class="detail-desc-wrap">
                             <p class="name u-ellipsis">{{work.desc.ename}}</p>
                             <p class="year">{{work.desc.tag.split(' ')[0]}}</p>
                         </div>
-                    </router-link>
+                    </a>
+                        <!--</router-link>-->
                 </swiper-slide>
             </swiper>
             <div class="swiper-button-prev" slot="button-prev"><p class="inner inner-newer">NEWER</p></div>
@@ -143,6 +145,10 @@ export default {
                 console.log(response)
             });
         },
+        changeWork(id) {
+            window.scrollTo(0, 0)
+            this.$router.push({ name: 'detail', params: {id: id }})
+        }
     },
     components: { swiper, swiperSlide },
     head: {
