@@ -36,6 +36,10 @@ img {color:rgba(0,0,0,0);}
 .scroll-down {animation:scrd 1s ease;-webkit-animation:scrd 1s ease;}
 @-webkit-keyframes scrd { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
 @keyframes scrd { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
+
+.scroll-up {animation:scru 1s ease;-webkit-animation:scru 1s ease;}
+@-webkit-keyframes scru { from { -webkit-transform:translate(0, 0); } to { -webkit-transform:translate(0, -5.4rem); } }
+@keyframes scru { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
 </style>
 
 <template>

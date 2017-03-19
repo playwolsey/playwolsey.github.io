@@ -97,13 +97,14 @@ export default {
             }
         },
         showNavbar() {
-            let path = this.$route.path
             this.show = !this.show
-            if (this.isWork && this.show) {
-                this.$emit('slideDown', true)
-            } else {
-                this.$emit('slideDown', false)
-            }
+            this.$emit('slideDown', this.show)
+
+            //if (this.isWork && this.show) {
+            //    this.$emit('slideDown', true)
+            //} else {
+            //    this.$emit('slideDown', false)
+            //}
         }
     }
 }
