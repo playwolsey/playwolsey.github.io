@@ -2,7 +2,7 @@
 <div id="job">
     <div class="article-wrap">
         <article class="m-article">
-            <h5 class="m-title">室内设计师</h5>
+            <h5 class="m-title">室内设计师 空间设计师</h5>
             <div class="m-line"></div>
             <section class="m-section">
                 <p>你将负责：</p>
@@ -21,7 +21,7 @@
             </section>
         </article>
         <article class="m-article">
-            <h5 class="m-title">室内设计师助理</h5>
+            <h5 class="m-title">室内设计师助理 实习生（长期招收）</h5>
             <div class="m-line"></div>
             <section class="m-section">
                 <p>你将负责：</p>
@@ -37,8 +37,13 @@
                 <p>4. 领悟力较强，执行力强，良好的学习能力，最重要做事积极主动。</p>
             </section>
         </article>
-        <article class="m-artile" style="margin-top:30px;">
+        <article class="m-artile" style="margin:.75rem 0 3rem;">
             <h5 class="m-title">应聘简历及作品投件邮箱：804931655@qq.com,期待您的加入！</h5>
+            <section class="m-section">
+                <p>1. 个人简历、作品集 、工资要求，邮件标题注明姓名和应聘岗位；</p>
+                <p>2. 工作申请须确保至少3-6个月的周期，最好将起讫时间在材料中注明。</p>
+                <p>本招聘信息长期有效</p>
+            </section>
         </article>
     </div>
 </div>

@@ -1,6 +1,6 @@
 <style>
-#mwork {width:14.4rem;}
-.mwork-item {width:7rem;position:absolute;top:.05rem;bottom:.05rem;left:.1rem;right:.1rem;}
+#mwork {width:14.2rem;}
+.mwork-item {width:7rem;position:absolute;top:.05rem;bottom:.05rem;left:.05rem;right:.05rem;}
 .mwork-item img {width:100%;}
 </style>
 
@@ -24,7 +24,7 @@ export default {
     data() {
         return {
             works: [],
-            gap: 288,
+            gap: 284,
             complement: 'work'
         }
     },
@@ -58,7 +58,7 @@ export default {
             });
         },
         getGap() {
-            this.gap = 7.2 *(+window.document.documentElement.style.fontSize.split('px')[0]);
+            this.gap = 7.1 *(+window.document.documentElement.style.fontSize.split('px')[0]);
         }
     },
     components: { Waterfall, WaterfallSlot },
