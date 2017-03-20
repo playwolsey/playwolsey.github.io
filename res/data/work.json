@@ -196,7 +196,7 @@ work({
         },
         {
             "cover": "/res/upload/zhu/cover.jpg",
-            "slide": "/res/upload/zhu/cover.jpg",
+            "slide": "/res/upload/zhu/ft.jpg",
             "id": 'zhu',
             "width": 1195,
             "height": 797,
