@@ -6,6 +6,7 @@
 #mabout .m-member img {width:6.4rem;}
 #mabout .m-partner {width:3.2rem;float:left;margin-right:.5rem;text-align:center;}
 #mabout .m-partner img {width:3.2rem;}
+#mabout .m-partner a p {color:#000;}
 #mabout .m-purl a {display:block;text-decoration:underline;color:#000;}
 #mabout .u-zh {height:6.5rem;}
 </style>
@@ -66,12 +67,16 @@
         <div class="m-line"></div>
         <section class="m-section">
             <div class="m-partner">
+                <a href="http://www.rebau.cn/" target="_blank">
                 <img src="/res/img/rebau.jpg" alt="rebau">
                 <p>RE BAU设计</p>
+                </a>
             </div>
             <div class="m-partner">
+                <a href="http://www.sozoer.com/headSoZo" target="_blank">
                 <img src="/res/img/suzao.jpg" alt="suzao">
                 <p>杭州素造设计</p>
+                </a>
             </div>
         </section>
     </article>

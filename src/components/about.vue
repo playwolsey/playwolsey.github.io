@@ -7,7 +7,7 @@
 .about-wrap .m-member .desc {color:#969696;line-height:23px;}
 .about-wrap .m-partner {width:78px;float:left;margin-right:20px;text-align:center;}
 .about-wrap .m-partner img {width:78px;}
-.about-wrap .m-partner p {line-height:30px;}
+.about-wrap .m-partner p {line-height:30px;color:#000;}
 .about-wrap .m-purl a {display:block;text-decoration:underline;color:#000;}
 </style>
 
@@ -48,12 +48,16 @@
             <h5 class="m-title">战略联盟</h5>
             <section class="m-section">
                 <div class="m-partner">
+                    <a href="http://www.rebau.cn/" target="_blank">
                     <img v-lazy="partner[0]" alt="rebau">
                     <p>RE BAU设计</p>
+                    </a>
                 </div>
                 <div class="m-partner">
+                    <a href="http://www.sozoer.com/headSoZo" target="_blank">
                     <img v-lazy="partner[1]" alt="suzao">
                     <p>杭州素造设计</p>
+                    </a>
                 </div>
             </section>
         </article>
