@@ -9,26 +9,21 @@
 .navbar .navbar-brand:hover .nav-brand-front {opacity:0;}
 .navbar .nav {list-style:none;float:right;position:relative;}
 .navbar .nav li {float:left;color:#969696;}
-.navbar .nav li:nth-child(1) {position:absolute;left:-84px;width:50px;}
 .navbar .nav li a {font-size:16px;color:#969696;line-height:24px;padding:0 15px;}
 .navbar .nav li:nth-child(4) a {padding-right:0;}
 .navbar .nav li a:hover {color:#000;}
 .navbar .nav li a.router-link-active {color:#000;}
-.navbar .nav .subnav {height:24px;line-height:24px;position:absolute;top:0;left:78px;width:268px;}
 .navbar .subnav div a {float:none;color:#969696;padding:0 5px 10px;}
-.slide-fade-enter-active {transition:all 1s ease;}
-.slide-fade-leave {transition:all 1s cubic-bezier(1.0, 0.5, 0.8, 1.0));}
-.slide-fade-enter {transform:translateX(10px);opacity:0;}
-.slide-fade-leave {transform:translateX(-10px);opacity:0;}
-.left-silde {animation:tl 1s ease;animation-fill-mode:forwards;}
-@-webkit-keyframes tl {
-    from {margin-left:-84px;}
-    to {margin-left:-264px;}
-}
-@keyframes tl {
-    from {margin-left:-84px;}
-    to {margin-left:-264px;}
-}
+.navbar .nav li:nth-child(1) {}
+.navbar .nav li:nth-child(1) .tem {display: inline-block; position: absolute; left: -74px;}
+.navbar .nav .subnav {height: 24px; line-height: 24px; display: inline-block; width: 6px; overflow: hidden;position: relative;}
+.navbar .nav .subnav .inner-wrap {white-space:nowrap;position:absolute;}
+.left-silde {animation:tl 1.3s ease;animation-fill-mode:forwards;}
+@-webkit-keyframes tl { from {width:6px;} to {width:280px;} }
+@keyframes tl { from {width:6px;} to {width:280px;} }
+.left-back {animation:lb 1s ease;animation-fill-mode:forwards;}
+@-webkit-keyframes lb { from {width:280px;} to {width:6px;} }
+@keyframes lb { from {width:280px;} to {width:6px;} }
 </style>
 
 <template>
@@ -40,17 +35,15 @@
                 <h1 class="nav-brand-back">杭州全文室内设计</h1>
             </a>
             <ul class="nav"> 
-                <li @mouseover="mouseover($event)" @mouseleave="mouseleave($event)" ref="worka">
-                    <router-link to="/work"><span class="nav-icon-text">WORK</span></router-link>
-                    <transition name="slide-fade">
-                    <div v-if="show" class="subnav">
-                        <div>
+                <li @mouseover="mouseover($event)" @mouseleave="mouseleave($event)">
+                    <router-link class="tem" to="/work"><span class="nav-icon-text">WORK</span></router-link>
+                    <div class="subnav" ref="worka">
+                        <div class="inner-wrap">
                             <router-link to="/interior">Interior</router-link>
                             <router-link to="/architecture">Architecture</router-link>
                             <router-link to="/visual">Visual Design</router-link>
                         </div>
                     </div>
-                    </transition>
                 </li>  
                 <li><span>/</span><router-link to="/about"><span class="nav-icon-text">ABOUT</span></router-link><span>/</span></li>  
                 <li><router-link to="/contact"><span class="nav-icon-text">CONTACT</span></router-link><span>/</span></li>
@@ -68,7 +61,6 @@ export default {
         return {
             wrapClass: 'navbar-wrap',
             noShadowClass: 'no-shadow',
-            show: false,
             isWork: true
         }
     },
@@ -97,12 +89,10 @@ export default {
             }
         },
         mouseover(e) {
-            this.show = true;
-            this.$refs.worka.className = 'left-silde';
+            this.$refs.worka.className = 'subnav left-silde';
         },
         mouseleave(e) {
-            this.show = false;
-            this.$refs.worka.className = '';
+            this.$refs.worka.className = 'subnav left-back';
         }
     }
 }
