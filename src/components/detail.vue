@@ -43,7 +43,7 @@ div.swiper-button-prev {background-image:url(/res/img/back.png);}
                 <swiper-slide v-for="work in works" :class="work.current">
                     <!--<router-link :to="{name:'detail', params: {id:work.id}}">-->
                     <a href="javascript:void(0)" @click="changeWork(work.id)">
-                        <img :src="work.cover">
+                        <img :src="work.slide">
                         <div class="detail-desc-wrap">
                             <p class="name u-ellipsis">{{work.desc.ename}}</p>
                             <p class="year">{{work.desc.tag.split(' ')[0]}}</p>

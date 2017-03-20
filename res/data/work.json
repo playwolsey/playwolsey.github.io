@@ -4,6 +4,7 @@ work({
     "works": [
         {
             "cover": "/res/upload/dt/cover.jpg",
+            "slide": "/res/upload/dt/ft.jpg",
             "id": 'dt',
             "width": 1125,
             "height": 750,
@@ -15,6 +16,7 @@ work({
         },
         {
             "cover": "/res/upload/rijiu/cover.jpg",
+            "slide": "/res/upload/rijiu/ft.jpg",
             "id": 'rijiu',
             "width": 1000,
             "height": 1000,
@@ -26,6 +28,7 @@ work({
         },
         { 
             "cover": "/res/upload/cakeman/cover.jpg",
+            "slide": "/res/upload/cakeman/ft.jpg",
             "id": 'cakeman',
             "width": 1344,
             "height": 2016,
@@ -37,6 +40,7 @@ work({
         },
         {
             "cover": "/res/upload/dongye/2.jpg",
+            "slide": "/res/upload/dongye/ft.jpg",
             "id": 'dongye',
             "width": 1600,
             "height": 1066,
@@ -48,6 +52,7 @@ work({
         },
         {
             "cover": "/res/upload/blue/cover.jpg",
+            "slide": "/res/upload/blue/ft.jpg",
             "id": 'blue',
             "width": 3726,
             "height": 5589,
@@ -59,6 +64,7 @@ work({
         },
         {
             "cover": "/res/upload/sakate/1.jpg",
+            "slide": "/res/upload/sakate/ft.jpg",
             "id": 'sakate',
             "width": 1300,
             "height": 1300,
@@ -70,6 +76,7 @@ work({
         },
         { 
             "cover": "/res/upload/lake/cover.jpg",
+            "slide": "/res/upload/lake/ft.jpg",
             "id": 'lake',
             "width": 585,
             "height": 390,
@@ -81,6 +88,7 @@ work({
         },
         {
             "cover": "/res/upload/zhang/cover.jpg",
+            "slide": "/res/upload/zhang/ft.jpg",
             "id": 'zhang',
             "width": 1120,
             "height": 1120,
@@ -92,6 +100,7 @@ work({
         },
         {
             "cover": "/res/upload/tai/cover.jpg",
+            "slide": "/res/upload/tai/ft.jpg",
             "id": 'tai',
             "width": 1230,
             "height": 820,
@@ -103,6 +112,7 @@ work({
         },
         {
             "cover": "/res/upload/space/cover.jpg",
+            "slide": "/res/upload/space/ft.jpg",
             "id": 'space',
             "width": 799,
             "height": 799,
@@ -114,6 +124,7 @@ work({
         },
         {
             "cover": "/res/upload/teahouse/cover.jpg",
+            "slide": "/res/upload/teahouse/ft.jpg",
             "id": 'teahouse',
             "width": 1530,
             "height": 1530,
@@ -125,6 +136,7 @@ work({
         },
         { 
             "cover": "/res/upload/mq/cover.jpg",
+            "slide": "/res/upload/mq/cover.jpg",
             "id": 'mq',
             "width": 393,
             "height": 393,
@@ -136,6 +148,7 @@ work({
         },
         {
             "cover": "/res/upload/principal/cover.jpg",
+            "slide": "/res/upload/principal/ft.jpg",
             "id": 'principal',
             "width": 800,
             "height": 1200,
@@ -147,6 +160,7 @@ work({
         },
         {
             "cover": "/res/upload/shaishe/cover.jpg",
+            "slide": "/res/upload/shaishe/cover.jpg",
             "id": 'shaishe',
             "width": 1600,
             "height": 1066,
@@ -158,6 +172,7 @@ work({
         },
         {
             "cover": "/res/upload/crossfit/cover.jpg",
+            "slide": "/res/upload/crossfit/cover.jpg",
             "id": 'crossfit',
             "width": 1600,
             "height": 1066,
@@ -169,6 +184,7 @@ work({
         },
         {
             "cover": "/res/upload/modo/cover.jpg",
+            "slide": "/res/upload/modo/cover.jpg",
             "id": 'modo',
             "width": 588,
             "height": 392,
@@ -180,6 +196,7 @@ work({
         },
         {
             "cover": "/res/upload/zhu/cover.jpg",
+            "slide": "/res/upload/zhu/cover.jpg",
             "id": 'zhu',
             "width": 1195,
             "height": 797,
@@ -191,6 +208,7 @@ work({
         },
         {
             "cover": "/res/upload/academy/cover.jpg",
+            "slide": "/res/upload/academy/ft.jpg",
             "id": 'academy',
             "width": 2000,
             "height": 1332,
