@@ -3,7 +3,7 @@
 .mnavbar-wrap .mnavbar {font-size:.9rem;line-height:1rem;letter-spacing:1px;padding:.36rem 0;position:relative;border-bottom:8px solid #000000;}
 .mnavbar-wrap .mnavbar .back {width:1.6rem;height:1.6rem;background:url(/res/img/back.png) no-repeat center center;background-size:100% 100%;margin:.7rem 0 .7rem;}
 .mnavbar-wrap .mnavbar .menu {font-size:.3375rem;position:absolute;right:0;bottom:.33rem;cursor:pointer;}
-.mnavbar-wrap .mnavbar .menu span {width:.925rem;height:0.1125rem;background:#000;margin-bottom:.196rem;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;display:block;}
+.mnavbar-wrap .mnavbar .menu span {width:.925rem;height:0.1125rem;background:#000;margin-bottom:.196rem;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;display:block;cursor:pointer;}
 .menu.open span:nth-child(1) {-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:left top;transform-origin:left top;}
 .menu.open span:nth-child(2) {opacity:0;}
 .menu.open span:nth-child(3) {-webkit-transform:rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin:left bottom;transform-origin:left bottom;}

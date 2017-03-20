@@ -9,6 +9,7 @@ fieldset, img {border:none;}
 button, input, select, textarea {font-size:100%;}
 table {border-collapse:collapse;border-spacing:0;}
 html {overflow-y:scroll;}
+body {text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;}
 [data-dpr="1"] body {font-size:12px;}
 [data-dpr="2"] body {font-size:24px;}
 [data-dpr="3"] body {font-size:36px;}
