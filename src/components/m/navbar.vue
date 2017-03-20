@@ -7,12 +7,11 @@
 .menu.open span:nth-child(1) {-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:left top;transform-origin:left top;}
 .menu.open span:nth-child(2) {opacity:0;}
 .menu.open span:nth-child(3) {-webkit-transform:rotate(-45deg);transform: rotate(-45deg);-webkit-transform-origin:left bottom;transform-origin:left bottom;}
-.mnavbar-wrap .menubox {font-size:1.35rem;line-height:1.35rem;margin-top:.5rem;font-weight:600;}
+.mnavbar-wrap .menubox {font-size:1.35rem;line-height:1.35rem;margin-top:.5rem;font-weight:600;opacity:0;}
 .mnavbar-wrap .menubox a {color:#DCDCDC;}
 .mnavbar-wrap .menubox a.router-link-active {color:#000;}
-.menubox-fade-enter-active {transition:all .5s cubic-bezier(0,0.5,0,1);}
-.menubox-fade-leave-active {transition:all .5s cubic-bezier(0, 0, 5, 0, 1);}
-.menubox-fade-enter, .slide-fade-leave-active {transform:translateY(-100px);opacity:0;}
+.mnavbar-wrap .menubox.show {animation:fadeIn 1s ease;-webkit-animation:fadeIn 1s ease;animation-fill-mode:forwards;}
+.mnavbar-wrap .menubox.hidden {animation:fadeOut 1s ease;-webkit-animation:fadeOut 1s ease;animation-fill-mode:forwards;}
 </style>
 
 <template>
@@ -29,22 +28,20 @@
             </div>
             <div class="back" v-if="isDetail||isWork" @click="back"></div>
         </div>
-        <transition name="menubox-fade">
-            <div class="menubox" v-if="show">
-                <ul v-if="!isWork">
-                    <li><router-link to="/m/work">Work</router-link></li>
-                    <li><router-link to="/m/about">About</router-link></li>
-                    <li><router-link to="/m/contact">Contact</router-link></li>
-                    <li><router-link to="/m/job">Job</router-link></li>
-                </ul>
-                <ul v-if="isWork">
-                    <li><router-link to="/m/interior">Interior</router-link></li>
-                    <li><router-link to="/m/architecture">Architecture</router-link></li>
-                    <li><router-link to="/m/visual">Visual Design</router-link></li>
-                    <li><router-link to="/m/all">All</router-link></li>
-                </ul>
-            </div>
-        </transition>
+        <div class="menubox" ref="menubox">
+            <ul v-if="!isWork">
+                <li><router-link to="/m/work">Work</router-link></li>
+                <li><router-link to="/m/about">About</router-link></li>
+                <li><router-link to="/m/contact">Contact</router-link></li>
+                <li><router-link to="/m/job">Job</router-link></li>
+            </ul>
+            <ul v-if="isWork">
+                <li><router-link to="/m/interior">Interior</router-link></li>
+                <li><router-link to="/m/architecture">Architecture</router-link></li>
+                <li><router-link to="/m/visual">Visual Design</router-link></li>
+                <li><router-link to="/m/all">All</router-link></li>
+            </ul>
+        </div>
     </div>
 </div>
 </template>
@@ -57,54 +54,63 @@ export default {
             menuClass: 'menu',
             openClass: 'open',
             show: false,
+            scroll: false,
             isWork: false,
             isDetail: false
         }
     },
     watch: {
-        '$route': 'getIsDetail'
+        $route(data, old) {
+            let path = this.$route.path;
+            this.getIsDetail()
+            this.show = false
+            this.scroll = false
+            this.$refs.menubox.className = 'menubox'
+
+                this.$emit('slideDown', this.scroll)
+        }
     },
     created() {
-        this.getIsDetail();
+        this.getIsDetail()
     },
     methods: {
         getIsDetail() {
             let path = this.$route.path;
 
             if (path.indexOf('detail') > -1) {
-                this.isDetail = true;
-                this.show = false;
+                this.isDetail = true
+                this.show = false
             } else {
                 this.isDetail = false;
             }
 
             if (path.indexOf('work') > -1 || path.indexOf('interior') > -1 || path.indexOf('architecture') > -1 || path.indexOf('visual') > -1 || path.indexOf('all') > -1) {
-                this.isWork = true;
+                this.isWork = true
             } else {
-                this.isWork = false;
+                this.isWork = false
             }
         },
         back() {
             let path = this.$route.path;
 
             if (path.indexOf('detail') > -1) {
-                this.$router.go(-1);
-                //this.show = true;
+                this.$router.go(-1)
             }
 
             if (path.indexOf('work') > -1 || path.indexOf('interior') > -1 || path.indexOf('architecture') > -1 || path.indexOf('visual') > -1 || path.indexOf('all') > -1) {
-                this.$router.push({path: '/m'});
+                this.$router.push({path: '/m'})
             }
         },
         showNavbar() {
             this.show = !this.show
-            this.$emit('slideDown', this.show)
+            this.scroll = !this.scroll
+            this.$emit('slideDown', this.scroll)
 
-            //if (this.isWork && this.show) {
-            //    this.$emit('slideDown', true)
-            //} else {
-            //    this.$emit('slideDown', false)
-            //}
+            if (this.scroll) {
+                this.$refs.menubox.className = 'menubox show'
+            } else {
+                this.$refs.menubox.className = 'menubox hidden'
+            }
         }
     }
 }

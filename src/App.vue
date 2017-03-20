@@ -21,7 +21,7 @@ html {overflow-y:scroll;}
 .view .m-section {margin-top:20px;}
 .view .m-section p, mview .m-section p {font-family:Avenir, Helvetica, "Mircosoft Yahei";}
 .view .m-line {border-bottom: 1.5px solid #000;width:15px;margin-top:15px;}
-.mview {width:14.2rem;margin:.8rem auto;}
+.mview {width:14.2rem;margin:.8rem auto;position: absolute; top: 3.7rem; left: 50%; transform: translate(-50%,0); -webkit-transform: translate(-50%,0);}
 .mview .m-article {margin-top:.75rem;}
 .mview .m-title, .mview .m-section {font-size:.48rem;line-height:1.125rem;}
 .mview .m-section {margin-top:.5rem;}
@@ -31,22 +31,27 @@ img[lazy=loaded] { background-size:cover; -webkit-animation-duration:1s; animati
 img {color:rgba(0,0,0,0);}
 @-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@-webkit-keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
 .u-ellipsis {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .u-clear {clear:both;}
-.scroll-down {animation:scrd 1s ease;-webkit-animation:scrd 1s ease;}
-@-webkit-keyframes scrd { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
-@keyframes scrd { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
 
-.scroll-up {animation:scru 1s ease;-webkit-animation:scru 1s ease;}
-@-webkit-keyframes scru { from { -webkit-transform:translate(0, 0); } to { -webkit-transform:translate(0, -5.4rem); } }
-@keyframes scru { from { -webkit-transform:translate(0, -5.4rem); } to { -webkit-transform:translate(0, 0); } }
+.scroll-down {animation:scrd 1s ease;-webkit-animation:scrd 1s ease;animation-fill-mode:forwards;}
+@-webkit-keyframes scrd { from { top:3.7rem; } to { top:9.7rem; } }
+@keyframes scrd { from { top:3.7rem; } to { top:9.7rem; } }
+
+.scroll-upa {animation:scru 1s ease;-webkit-animation:scru 1s ease;animation-fill-mode:forwards;}
+@-webkit-keyframes scru { from { top:9.7rem; } to { top:3.7rem; } }
+@keyframes scru { from { top:9.7rem; } to { top:3.7rem; } }
+
+
 </style>
 
 <template>
     <div id="app">
         <navbar v-show="!isMobile"></navbar>
         <mnavbar v-show="isMobile" v-on:slideDown='scrollView'></mnavbar>
-        <router-view :class="[isMobile ? 'mview' : 'view', isDown ? 'scroll-down' : '']"></router-view>
+        <router-view :class="[isMobile ? 'mview' : 'view', isDown ? 'scroll-down' : initviewClass]"></router-view>
     </div>
 </template>
 
@@ -59,7 +64,8 @@ export default {
     data() {
         return {
             isMobile: false,
-            isDown: false
+            isDown: false,
+            initviewClass: ''
         }
     },
     created() {
@@ -108,6 +114,9 @@ export default {
         },
         scrollView(isDown) {
             this.isDown = isDown
+            if (!isDown) {
+                this.initviewClass = 'scroll-upa'
+            }
         }
     },
     components: { navbar, mnavbar }

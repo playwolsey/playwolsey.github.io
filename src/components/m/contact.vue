@@ -13,7 +13,7 @@
             <section class="m-section">
                 <p>Email：804931655@qq.com</p>
                 <p>Tel：13777403616</p>
-                <p>Wechat：全文设计</p>
+                <p>Wechat：全文设计 （个人 sunquanwen）</p>
             </section>
             <section class="m-section">
                 <p>www.quanwends.com</p>
