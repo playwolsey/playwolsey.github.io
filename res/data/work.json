@@ -160,7 +160,7 @@ work({
         },
         {
             "cover": "/res/upload/shaishe/cover.jpg",
-            "slide": "/res/upload/shaishe/cover.jpg",
+            "slide": "/res/upload/shaishe/ft.jpg",
             "id": 'shaishe',
             "width": 1600,
             "height": 1066,
@@ -184,7 +184,7 @@ work({
         },
         {
             "cover": "/res/upload/modo/cover.jpg",
-            "slide": "/res/upload/modo/cover.jpg",
+            "slide": "/res/upload/modo/ft.jpg",
             "id": 'modo',
             "width": 588,
             "height": 392,
