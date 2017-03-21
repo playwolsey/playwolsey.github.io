@@ -2,7 +2,7 @@
 #mwork {width:14.2rem;}
 /*.mwork-item {width:7rem;position:absolute;top:.05rem;bottom:.05rem;left:.05rem;right:.05rem;}*/
 .mwork-item {width:7rem;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);}
-.mwork-item img {width:100%;}
+.mwork-item img {width:100%;vertical-align:middle;}
 </style>
 
 <template>
