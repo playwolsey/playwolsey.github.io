@@ -59,7 +59,7 @@ export default {
             });
         },
         getGap() {
-            this.gap = 7.1 *(+window.document.documentElement.style.fontSize.split('px')[0]);
+            this.gap = 7.1 * (+window.document.documentElement.style.fontSize.split('px')[0])
         }
     },
     components: { Waterfall, WaterfallSlot },
