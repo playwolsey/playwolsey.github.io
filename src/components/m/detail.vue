@@ -1,5 +1,6 @@
 <style>
-.mdetail-wrap p {font-weight:600;}
+.mdetail-wrap p {font-weight:600;font-size:.58rem;}
+.mdetail-wrap .no-weight p {font-weight:100;}
 .mdetail-wrap .detail-img-wrap li {margin-bottom:.25rem;}
 .mdetail-wrap .detail-img-wrap li img {width:100%;}
 .mdetail-wrap .denav  {position:relative;margin:1rem 0;height:1.4rem;}
@@ -8,16 +9,17 @@
 .mdetail-wrap .denav .home {left:50%;margin-left:-1.3rem;}
 .mdetail-wrap .denav .top {right:0;}
 .mdetail-wrap .copyright {font-size:.45rem;color:#000;border-top:1px solid #DCDCDC;padding:.6rem 0 .8rem;}
+#mdetail .u-rm {margin-top:.4rem;}
 </style>
 
 <template>
-<div id="detail">
+<div id="mdetail">
     <div class="mdetail-wrap">
-        <article class="m-article">
+        <article class="m-article u-rm">
             <h5 class="m-title">{{details.name}}</h5>
             <h5 class="m-title">{{details.ename}}</h5>
-            <section class="m-section">
-                <p>DESINGER：{{details.designer}}</p>
+            <section class="m-section no-weight">
+                <p>DESIGNER：{{details.designer}}</p>
                 <p>YEAR: {{details.year}}</p>
                 <p>CLIENT: {{details.client}}</p>
             </section>

@@ -74,13 +74,13 @@
             </div>
             <div class="m-partner">
                 <a href="http://www.sozoer.com/headSoZo" target="_blank">
-                <img src="/res/img/suzao.jpg" alt="suzao">
+                <img src="/res/img/msuzao.jpg" alt="suzao">
                 <p>杭州素造设计</p>
                 </a>
             </div>
         </section>
     </article>
-    <article class="m-article u-clear">
+    <article class="m-article u-clear" style="margin-bottom:1.5rem;">
         <h5 class="m-title">PARTNER</h5>
         <div class="m-line"></div>
         <section class="m-section">
