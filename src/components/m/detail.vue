@@ -1,5 +1,6 @@
 <style>
 .mdetail-wrap p {font-weight:600;font-size:.58rem;}
+.mdetail-wrap .m-title {font-size:.59rem;}
 .mdetail-wrap .no-weight p {font-weight:100;}
 .mdetail-wrap .detail-img-wrap li {margin-bottom:.25rem;}
 .mdetail-wrap .detail-img-wrap li img {width:100%;}
