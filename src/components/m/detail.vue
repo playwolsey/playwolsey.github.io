@@ -28,7 +28,7 @@
                 <p v-for="desc in details.descs">{{desc}}</p>
             </section>
             <ul class="detail-img-wrap">
-                <li v-for="img in details.imgs"><img v-lazy="img"></li>
+                <li v-for="img in details.imgs"><img :src="img"></li>
             </ul>
         </article>
 

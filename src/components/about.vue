@@ -28,17 +28,17 @@
             <h5 class="m-title">团队成员</h5>
             <section class="m-section">
                 <div class="m-member">
-                    <img v-lazy="group[0]" alt="sunquanwen">
+                    <img :src="group[0]" alt="sunquanwen">
                     <p class="name">孙全文</p>
                     <p class="desc">主创室内设计师，毕业于中国美术学院环境艺术专业。擅长复合空间设计，小型建筑设计改造 。</p>
                 </div>
                 <div class="m-member">
-                    <img v-lazy="group[1]" alt="yangrourou">
+                    <img :src="group[1]" alt="yangrourou">
                     <p class="name">杨肉肉</p>
                     <p class="desc">软装设计师／平面视觉设计师，毕业于浙江理工大学工业设计专业。曾参与绿城、朗诗、融创等样板房软装设计，高级住宅软装设计，担任虾米音乐专题设计师等。</p>
                 </div>
                 <div class="m-member">
-                    <img v-lazy="group[2]" alt="zhoujian">
+                    <img :src="group[2]" alt="zhoujian">
                     <p class="name">周简</p>
                     <p class="desc">中国美术学院建筑学院教师，毕业于北京大学建筑研究生院，擅长中国本土建筑设计改造，复兴本土融通自然、城市、建筑和景观的整体营造方式 。</p>
                 </div>
