@@ -28,7 +28,7 @@
                 <p v-for="desc in details.descs">{{desc}}</p>
             </section>
             <ul class="detail-img-wrap">
-                <li v-for="img in details.imgs"><img :src="img"></li>
+                <li v-for="img in details.imgs"><img v-lazy="img"></li>
             </ul>
         </article>
 
@@ -61,7 +61,7 @@ export default {
     },
     methods: {
         getDetails(id) {
-            this.$http.jsonp('/res/data/' + id + '.json', {
+            this.$http.jsonp('http://upload.quanwends.com/res/data/' + id + '.json', {
                 jsonp: "callback", 
                 jsonpCallback: id 
             }, {

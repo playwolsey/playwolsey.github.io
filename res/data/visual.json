@@ -3,7 +3,7 @@ visual({
     "total": 3,
     "works": [
         {
-            cover: "/res/upload/modo/cover.jpg",
+            cover: "http://upload.quanwends.com/res/upload/modo/cover.jpg",
             id: 'modo',
             width: 588,
             height: 392,
@@ -14,7 +14,7 @@ visual({
             }
         },
         { 
-            cover: "/res/upload/mq/cover.jpg",
+            cover: "http://upload.quanwends.com/res/upload/mq/cover.jpg",
             id: 'mq',
             width: 393,
             height: 393,
@@ -25,7 +25,7 @@ visual({
             }
         },
         { 
-            cover: "/res/upload/lake/cover.jpg",
+            cover: "http://upload.quanwends.com/res/upload/lake/cover.jpg",
             id: 'lake',
             width: 585,
             height: 390,

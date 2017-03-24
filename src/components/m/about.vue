@@ -28,17 +28,17 @@
         <div class="m-line"></div>
         <section class="m-section">
             <div class="m-member">
-                <img src="/res/img/qw.jpg" alt="sunquanwen">
+                <img src="http://upload.quanwends.com/res/img/qw.jpg" alt="sunquanwen">
                 <p class="name">孙全文</p>
                 <p class="desc">主创室内设计师，毕业于中国美术学院环境艺术专业。擅长复合空间设计，小型建筑设计改造 。</p>
             </div>
             <div class="m-member">
-                <img src="/res/img/yrr.jpg" alt="yangrourou">
+                <img src="http://upload.quanwends.com/res/img/yrr.jpg" alt="yangrourou">
                 <p class="name">杨肉肉</p>
                 <p class="desc">软装设计师／平面视觉设计师，毕业于浙江理工大学工业设计专业。曾参与绿城、朗诗、融创等样板房软装设计，高级住宅软装设计，担任虾米音乐专题设计师等。</p>
             </div>
             <div class="m-member">
-                <img src="/res/img/zj.jpg" alt="zhoujian">
+                <img src="http://upload.quanwends.com/res/img/zj.jpg" alt="zhoujian">
                 <p class="name">周简</p>
                 <p class="desc">中国美术学院建筑学院教师，毕业于北京大学建筑研究生院，擅长中国本土建筑设计改造，复兴本土融通自然、城市、建筑和景观的整体营造方式 。</p>
             </div>
@@ -68,13 +68,13 @@
         <section class="m-section">
             <div class="m-partner">
                 <a href="http://www.rebau.cn/" target="_blank">
-                <img src="/res/img/rebau.jpg" alt="rebau">
+                <img src="http://upload.quanwends.com/res/img/rebau.jpg" alt="rebau">
                 <p>RE BAU设计</p>
                 </a>
             </div>
             <div class="m-partner">
                 <a href="http://www.sozoer.com/headSoZo" target="_blank">
-                <img src="/res/img/msuzao.jpg" alt="suzao">
+                <img src="http://upload.quanwends.com/res/img/msuzao.jpg" alt="suzao">
                 <p>杭州素造设计</p>
                 </a>
             </div>

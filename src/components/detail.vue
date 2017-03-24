@@ -109,7 +109,7 @@ export default {
     },
     methods: {
         getDetails(id) {
-            this.$http.jsonp('/res/data/' + id + '.json', {
+            this.$http.jsonp('http://upload.quanwends.com/res/data/' + id + '.json', {
                 jsonp: "callback", 
                 jsonpCallback: id 
             }, {
@@ -125,7 +125,7 @@ export default {
             });
         },
         getWorks() {
-            this.$http.jsonp('/res/data/work.json', {
+            this.$http.jsonp('http://upload.quanwends.com/res/data/work.json', {
                 jsonp: "callback", 
                 jsonpCallback: 'work' 
             }, {

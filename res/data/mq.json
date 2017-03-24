@@ -12,10 +12,10 @@ mq({
         '为高以翔、黄柏钧在西湖边开的时尚酒吧 MQ Lounge Bar 所做的视觉设计。'
     ],
     "imgs": [
-        'http:/res/upload/mq/1.jpg',
-        'http:/res/upload/mq/2.jpg',
-        'http:/res/upload/mq/3.jpg',
-        'http:/res/upload/mq/4.jpg',
-        'http:/res/upload/mq/5.jpg'
+        'http://upload.quanwends.com/res/upload/mq/1.jpg',
+        'http://upload.quanwends.com/res/upload/mq/2.jpg',
+        'http://upload.quanwends.com/res/upload/mq/3.jpg',
+        'http://upload.quanwends.com/res/upload/mq/4.jpg',
+        'http://upload.quanwends.com/res/upload/mq/5.jpg'
     ]
 });

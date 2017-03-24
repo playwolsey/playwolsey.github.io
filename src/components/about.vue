@@ -106,8 +106,8 @@
 export default {
     data() {
         return {
-            group: [ "/res/img/qw.jpg", "/res/img/yrr.jpg", "/res/img/zj.jpg" ],
-            partner: [ "/res/img/rebau.jpg", "/res/img/suzao.jpg" ]
+            group: [ "http://upload.quanwends.com/res/img/qw.jpg", "http://upload.quanwends.com/res/img/yrr.jpg", "http://upload.quanwends.com/res/img/zj.jpg" ],
+            partner: [ "http://upload.quanwends.com/res/img/rebau.jpg", "http://upload.quanwends.com/res/img/suzao.jpg" ]
         }
     },
     head: {
