@@ -10,10 +10,10 @@ Vue.use(VueLazyload, {
     listenEvents: ['scroll']
 })
 
-Vue.config.debug = true;
-Vue.use(VueRouter);
-Vue.use(VueResource);
-Vue.use(VueHead);
+Vue.config.debug = true
+Vue.use(VueRouter)
+Vue.use(VueResource)
+Vue.use(VueHead)
 
 import work from './components/work.vue'
 import detail from './components/detail.vue'
