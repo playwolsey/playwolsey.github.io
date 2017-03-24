@@ -27,7 +27,7 @@
         <waterfall-slot v-for="(work, index) in works" :width="work.width" :height="work.height" :order="index" :key="work.id">
             <div class="work-item">
                 <router-link :to="{name:'detail', params: {id:work.id}}">
-                    <img v-lazy="work.cover" :alt="work.desc.name">
+                    <img :src="work.cover" :alt="work.desc.name">
                     <div class="work-item-cover" @mouseover="mouseover($event)" @mouseleave="mouseleave($event)">
                         <div class="desc-wrap">
                             <div class="desc hd"><p>{{work.desc.name}}</p></div>
