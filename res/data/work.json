@@ -3,6 +3,30 @@ work({
     "total": 250,
     "works": [
         {
+            "cover": "http://upload.quanwends.com/res/upload/qyms/cover.jpg",
+            "slide": "http://upload.quanwends.com/res/upload/qyms/ft.jpg",
+            "id": 'qyms',
+            "width": 1500,
+            "height": 1125,
+            "desc": {
+                "name": '杭州栖云民宿精品酒店',
+                "ename": 'The XI YUN INN',
+                "tag": '2017.05 Interior'
+            }
+        },
+        {
+            "cover": "http://upload.quanwends.com/res/upload/mtct/cover.jpg",
+            "slide": "http://upload.quanwends.com/res/upload/mtct/ft.jpg",
+            "id": 'mtct',
+            "width": 1903,
+            "height": 3680,
+            "desc": {
+                "name": '每天美式休闲餐厅',
+                "ename": 'Mei Tian LEISURE RESTAURANT',
+                "tag": '2017.03 Interior'
+            }
+        },
+        {
             
             "cover": "http://upload.quanwends.com/res/upload/dt/cover.jpg",
             "slide": "http://upload.quanwends.com/res/upload/dt/ft.jpg",

@@ -1,0 +1,25 @@
+mtct({
+    "name": '每天美式休闲餐厅',
+    "ename": '“Mei Tian” LEISURE RESTAURANT',
+    "designer": 'Quanwen Interior Design',
+    "year": '2017.03',
+    "client": 'The Mei Tian Leisure Restaurant',
+    "meta": {
+        "keywords": "美式餐厅设计，美式休闲餐厅设计，休闲餐厅设计，时尚餐厅设计，创意餐厅设计",
+        "description": "每天美式休闲餐厅"
+    },
+    "descs": [
+        '“每天”是主打美式西餐，兼具酒吧功能的融合餐厅。为了跳脱出常规美式餐厅浓重的氛围，给予食客们轻松休闲的用餐环境。全文设计运用建筑化的设计方式契合空间语言，强调形式体块与点线面的穿插运用。同时结合质朴的材料，运用木纹、水泥墙面、水磨石，以及铝板、黄铜等元素，从而呈现出简约的美式复古气息，与品牌主打90后定位相呼应。'
+    ],
+    "imgs": [
+        'http://upload.quanwends.com/res/upload/mtct/1.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/2.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/3.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/4.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/5.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/6.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/7.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/8.jpg',
+        'http://upload.quanwends.com/res/upload/mtct/9.jpg'
+    ]
+});

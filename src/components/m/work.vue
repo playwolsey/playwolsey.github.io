@@ -47,7 +47,7 @@ export default {
             this.complement = path
             this.$emit('updateHead')
 
-            this.$http.jsonp('/res/data/' + path + '.json', {
+            this.$http.jsonp('http://upload.quanwends.com/res/data/' + path + '.json', {
                 jsonp: "callback", 
                 jsonpCallback: path 
             }, {
