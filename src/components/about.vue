@@ -2,7 +2,7 @@
 .about-wrap {width:492px;}
 .about-wrap:last-child {margin-left:79px;}
 .about-wrap .m-member {width:150px;float:left;margin-right:14px;}
-.about-wrap .m-member img {width:150px;}
+.about-wrap .m-member img {width:150px;height:110px;}
 .about-wrap .m-member .name {line-height:36px;font-weight:600;}
 .about-wrap .m-member .desc {color:#969696;line-height:23px;}
 .about-wrap .m-partner {width:78px;float:left;margin-right:20px;text-align:center;}
@@ -41,6 +41,11 @@
                     <img :src="group[2]" alt="zhoujian">
                     <p class="name">周简</p>
                     <p class="desc">中国美术学院建筑学院教师，毕业于北京大学建筑研究生院，擅长中国本土建筑设计改造，复兴本土融通自然、城市、建筑和景观的整体营造方式 。</p>
+                </div>
+                <div class="m-member" style="margin-top:20px;clear:both;">
+                    <img :src="group[3]" alt="baoronglei">
+                    <p class="name">包容磊</p>
+                    <p class="desc">品牌咨询／平面视觉设计师，毕业于中国美术学院平面设计专业，前网易高级视觉设计师，参与康恩贝，农夫山泉，柏欧斐等全案设计.</p>
                 </div>
             </section>
         </article>
@@ -88,6 +93,10 @@
                     <p class="name">Zhou Jian</p>
                     <p class="desc">A teacher of China Academy of Art, graduated from Graduate School of Peking University, specialized in Chinese traditional architecture design and modification and pursuit an overall pattern of integrated nature, city, architecture and landscape features.</p>
                 </div>
+                <div class="m-member" style="margin-top:20px;clear:both;">
+                    <p class="name">Re Bao</p>
+                    <p class="desc">Brand consulting / visual designer, graduated from The China Academy of Art, major in graphic design, the former NetEase senior designer, in Conba, farmer spring, etc. the whole case design. B. Q Fei</p>
+                </div>
             </section>
         </article>
         <!--<article class="m-article u-clear" style="padding-top:40px;">
@@ -106,7 +115,8 @@
 export default {
     data() {
         return {
-            group: [ "http://upload.quanwends.com/res/img/qw.jpg", "http://upload.quanwends.com/res/img/yrr.jpg", "http://upload.quanwends.com/res/img/zj.jpg" ],
+            group: [ "http://upload.quanwends.com/res/img/qw.jpg", "http://upload.quanwends.com/res/img/yrr.jpg", "http://upload.quanwends.com/res/img/zj.jpg",
+                "http://upload.quanwends.com/res/img/baoronglei.jpg" ],
             partner: [ "http://upload.quanwends.com/res/img/rebau.jpg", "http://upload.quanwends.com/res/img/suzao.jpg" ]
         }
     },

@@ -42,6 +42,11 @@
                 <p class="name">周简</p>
                 <p class="desc">中国美术学院建筑学院教师，毕业于北京大学建筑研究生院，擅长中国本土建筑设计改造，复兴本土融通自然、城市、建筑和景观的整体营造方式 。</p>
             </div>
+            <div class="m-member" style="margin-left:1.3rem;">
+                <img src="http://upload.quanwends.com/res/img/baoronglei.jpg" alt="baoronglei">
+                <p class="name">包容磊</p>
+                <p class="desc">品牌咨询／平面视觉设计师，毕业于中国美术学院平面设计专业，前网易高级视觉设计师，参与康恩贝，农夫山泉，柏欧斐等全案设计.</p>
+            </div>
         </section>
     </article>
     <article class="m-article u-clear">
@@ -59,6 +64,10 @@
             <div class="m-member">
                 <p class="name">Zhou Jian</p>
                 <p>A teacher of China Academy of Art, graduated from Graduate School of Peking University, specialized in Chinese traditional architecture design and modification and pursuit an overall pattern of integrated nature, city, architecture and landscape features.</p>
+            </div>
+            <div class="m-member" style="margin-left:1.3rem;margin-top:1.4rem;">
+                <p class="name">Re Bao</p>
+                <p>Brand consulting / visual designer, graduated from The China Academy of Art, major in graphic design, the former NetEase senior designer, in Conba, farmer spring, etc. the whole case design. B. Q Fei</p>
             </div>
         </section>
     </article>
