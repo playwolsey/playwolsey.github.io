@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>WEBPACK</title>
+		<link rel="stylesheet" href="revealcommon/css/reveal.css">
+		<link rel="stylesheet" href="revealcommon/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="revealcommon/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <section>
+            <h1>WEBPACK</h1>
+            <h3>A bundler for javascript and friends.</h3>
+            <p>
+              <small>Created by ChengPeng</small>
+            </p>
+          </section>
+          <section>
+						<img src="assets/webpack.png" style="border:0;" alt="webpack"/>
+          </section>
+        </section>
+
+        <section>
+          <h2>CLI</h2>
+          <p class="fragment">......</p>
+        </section>
+
+        <section>
+          <section>
+            <h2>CONCEPTS</h2>
+            <p>Entry</p>
+            <p>Output</p>
+            <p class="fragment highlight-red">Loaders</p>
+            <p>Plugins</p>
+            <p class="fragment highlight-red">Modules</p>
+            <p class="fragment fade-right">Chunk</p>
+          </section>
+          <section>
+            <h2>Entry</h2>
+          </section>
+          <section>
+            <h2>Output</h2>
+          </section>
+          <section>
+            <h2>Loaders</h2>
+          </section>
+          <section>
+            <h2>Plugins</h2>
+          </section>
+        </section>
+
+        <section>
+          <h2>CONFIGURATION</h2>
+        </section>
+
+        <section>
+          <h2>BUILD PERFORMANCE</h2>
+          <p class="fragment grow">Stay Up to Date</p>
+          <p class="fragment grow">Loaders</p>
+          <p class="fragment grow">TreeShaking</p>
+          <p class="fragment grow">CDN</p>
+          <p class="fragment grow">Persistent cache</p>
+          <p class="fragment grow">Dlls</p>
+          <p class="fragment grow">Incremental Builds</p>
+          <p class="fragment grow">HappyPack</p>
+          <p class="fragment">Others ... </p>
+        </section>
+
+        <section>
+          <h2>BUILD FLOW</h2>
+          <p>
+            <span class="fragment">init</span>
+            <span class="fragment">-></span>
+            <span class="fragment">run</span>
+            <span class="fragment">-></span>
+            <span class="fragment">entry</span>
+            <span class="fragment">-></span>
+            <span class="fragment">loaders</span>
+            <span class="fragment">-></span>
+            <span class="fragment">modules denpendencies</span>
+            <span class="fragment">-></span>
+            <span class="fragment">chunks</span>
+            <span class="fragment">-></span>
+            <span class="fragment">done</span>
+          </p>
+        </section>
+
+        <section>
+          <h1>QA?</h1>
+          <p class="fragment">init</p>
+        </section>
+
+        <section>
+          <h1>NEXT . . .</h1>
+        </section>
+
+				<section>
+					<h2>RESOURCES</h2>
+					<ul>
+						<li><a href="https://webpack.js.org/">Webpack.js.org</a></li>
+						<li><a href="https://github.com/zxfjd3g/dive-into-webpack">dive-into-webpack</a></li>
+						<li><a href="http://www.cnblogs.com/sunshq/p/5073301.html">http://www.cnblogs.com/sunshq/p/5073301.html</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="./revealcommon/lib/js/head.min.js"></script>
+		<script src="./revealcommon/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
