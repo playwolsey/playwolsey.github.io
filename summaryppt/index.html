@@ -3,19 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>WEBPACK</title>
-		<link rel="stylesheet" href="revealcommon/css/reveal.css">
-		<link rel="stylesheet" href="revealcommon/css/theme/black.css">
-
+		<title>SUMMARY</title>
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/css/reveal.css">
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/css/theme/black.css">
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="revealcommon/lib/css/zenburn.css">
-
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/lib/css/zenburn.css">
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi )
+        ? 'http://playwolsey.github.io/revealcommon/css/print/pdf.css'
+        : 'http://playwolsey.github.io/revealcommon/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -24,112 +24,108 @@
 			<div class="slides">
         <section>
           <section>
-            <h1>WEBPACK</h1>
-            <h3>A bundler for javascript and friends.</h3>
+            <h1>SUMMARY</h1>
+            <h3>Never forget why you started</h3>
             <p>
               <small>Created by ChengPeng</small>
             </p>
           </section>
           <section>
-						<img src="assets/webpack.png" style="border:0;" alt="webpack"/>
+						<img src="assets/css.jpg" style="border:0;" alt="cover"/>
           </section>
-        </section>
-
-        <section>
-          <h2>CLI</h2>
-          <p class="fragment">......</p>
         </section>
 
         <section>
           <section>
-            <h2>CONCEPTS</h2>
-            <p>Entry</p>
-            <p>Output</p>
-            <p class="fragment highlight-red">Loaders</p>
-            <p>Plugins</p>
-            <p class="fragment highlight-red">Modules</p>
-            <p class="fragment fade-right">Chunk</p>
+            <h2>CONTENT</h2>
+            <p class="fragment fade-right">Experiences</p>
+            <p class="fragment fade-right">Expectations</p>
+            <p class="fragment fade-right">Problems</p>
+            <p class="fragment fade-right">Suggestions</p>
           </section>
           <section>
-            <h2>Entry</h2>
+            <h2>Experiences</h2>
+            <p class="fragment grow">Server</p>
+            <p class="fragment grow">JQuery</p>
+            <p class="fragment grow">Zepto</p>
+            <p class="fragment grow">Nej & Regular.js</p>
+            <p class="fragment grow">React</p>
           </section>
           <section>
-            <h2>Output</h2>
+            <h2>Expectations</h2>
+            <p class="fragment grow">Visual Constuction</p>
+            <p class="fragment grow">Flutter</p>
+            <p class="fragment fade-right">Undertake more business</p>
           </section>
           <section>
-            <h2>Loaders</h2>
+            <h2>Problems</h2>
+            <p class="fragment grow">Regimen</p>
+            <p class="fragment grow">Share</p>
+            <p class="fragment highlight-red">Bugs</p>
+            <p class="fragment highlight-red">Tests</p>
+            <p class="fragment highlight-red">Quality</p>
+            <p class="fragment highlight-red">Communication</p>
           </section>
           <section>
-            <h2>Plugins</h2>
+            <h2>Suggestions</h2>
+            <p class="fragment fade-right">Swimming & Fitness</p>
+          </section>
+          <section>
+						<img src="assets/lyh.JPG" style="border:0;" alt="health"/>
+          </section>
+          <section>
+            <h2>Growing up</h2>
+            <p>
+              <span class="fragment">P5</span>
+              <span class="fragment">-></span>
+              <span class="fragment">P6</span>
+              <span class="fragment">-></span>
+              <span class="fragment">P108</span>
+              <span class="fragment">-></span>
+              <span class="fragment">CEO</span>
+            </p>
+          </section>
+          <section>
+            <h2>Growing up</h2>
+            <p>
+              <span class="fragment">Break</span>
+              <span class="fragment">-></span>
+              <span class="fragment">Adaptation</span>
+              <span class="fragment">-></span>
+              <span class="fragment">Break</span>
+              <span class="fragment">-></span>
+              <span class="fragment">...</span>
+            </p>
           </section>
         </section>
 
         <section>
-          <h2>CONFIGURATION</h2>
-        </section>
-
-        <section>
-          <h2>BUILD PERFORMANCE</h2>
-          <p class="fragment grow">Stay Up to Date</p>
-          <p class="fragment grow">Loaders</p>
-          <p class="fragment grow">TreeShaking</p>
-          <p class="fragment grow">CDN</p>
-          <p class="fragment grow">Persistent cache</p>
-          <p class="fragment grow">Dlls</p>
-          <p class="fragment grow">Incremental Builds</p>
-          <p class="fragment grow">HappyPack</p>
-          <p class="fragment">Others ... </p>
-        </section>
-
-        <section>
-          <h2>BUILD FLOW</h2>
-          <p>
-            <span class="fragment">init</span>
-            <span class="fragment">-></span>
-            <span class="fragment">run</span>
-            <span class="fragment">-></span>
-            <span class="fragment">entry</span>
-            <span class="fragment">-></span>
-            <span class="fragment">loaders</span>
-            <span class="fragment">-></span>
-            <span class="fragment">modules denpendencies</span>
-            <span class="fragment">-></span>
-            <span class="fragment">chunks</span>
-            <span class="fragment">-></span>
-            <span class="fragment">done</span>
-          </p>
-        </section>
-
-        <section>
-          <h1>QA?</h1>
-          <p class="fragment">init</p>
+          <h1>QA</h1>
         </section>
 
         <section>
           <h1>NEXT . . .</h1>
+					<ul>
+						<li><a href="javascript:void(0)">dive-into-vim</a></li>
+						<li><a href="javascript:void(0)">...</a></li>
+					</ul>
         </section>
 
-				<section>
-					<h2>RESOURCES</h2>
-					<ul>
-						<li><a href="https://webpack.js.org/">Webpack.js.org</a></li>
-						<li><a href="https://github.com/zxfjd3g/dive-into-webpack">dive-into-webpack</a></li>
-						<li><a href="http://www.cnblogs.com/sunshq/p/5073301.html">http://www.cnblogs.com/sunshq/p/5073301.html</a></li>
-					</ul>
-				</section>
+        <section>
+          <h1>Yummy?</h1>
+        </section>
 			</div>
 		</div>
 
-		<script src="./revealcommon/lib/js/head.min.js"></script>
-		<script src="./revealcommon/js/reveal.js"></script>
-
+		<script src="http://playwolsey.github.io/revealcommon/lib/js/head.min.js"></script>
+    <script src="http://playwolsey.github.io/revealcommon/js/reveal.js"></script>
 		<script>
 			Reveal.initialize({
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/markdown/marked.js' },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/markdown/markdown.js' },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/notes/notes.js', async: true },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
