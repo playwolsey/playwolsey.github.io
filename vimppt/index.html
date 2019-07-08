@@ -1,92 +1,249 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Dive into Vim</title>
-    <meta name="author" content="Cheng Peng" />
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link href="css/impress-demo.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-</head>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>VIM</title>
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/css/reveal.css">
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/css/theme/black.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="http://playwolsey.github.io/revealcommon/lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi )
+        ? 'http://playwolsey.github.io/revealcommon/css/print/pdf.css'
+        : 'http://playwolsey.github.io/revealcommon/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <section>
+            <h1>DIVE INTO VIM</h1>
+            <h3>Text editor of the Gods</h3>
+            <p>
+              <small>Created by ChengPeng</small>
+            </p>
+          </section>
+          <!-- <section> -->
+						<!-- <img src="assets/vim.jpeg" style="border:0;" alt="cover"/> -->
+          <!-- </section> -->
+        </section>
 
-<body class="impress-not-supported">
+        <section>
+          <h2>content</h2>
+          <p>Introuction</p>
+          <p class="fragment grow highlight-green">Learn Vim Progressively</p>
+          <p>Vim As IDE</p>
+          <p>Enhance Your IDE</p>
+        </section>
 
-<div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-</div>
+        <section>
+          <section>
+            <h2>Introuction</h2>
+            <p class="fragment grow">What</p>
+            <p class="fragment grow">Why</p>
+            <p class="fragment grow">History</p>
+            <p class="fragment grow highlight-red">Mode</p>
+          </section>
+        </section>
 
-<div id="impress">
+        <section>
+          <section>
+            <h2>Learn vim Progressively</h2>
+            <p class="fragment grow highlight-green">Survive</p>
+            <p>Feel Comportable</p>
+            <p>Feel Better, Stronger, Faster</p>
+            <p>Use Superpowers of Vim</p>
+          </section>
+          <section>
+            <h2>Survive</h2>
+            <p class="fragment grow"> - i</p>
+            <p class="fragment grow"> - x</p>
+            <p class="fragment grow"> - :wq</p>
+            <p class="fragment grow"> - dd</p>
+            <p class="fragment grow"> - p</p>
+          </section>
+          <section>
+            <h2>Survive</h2>
+            <p> - hjkl</p>
+						<img class="fragment" src="assets/hjkl.jpeg" style="border:0;" alt="hjkl"/>
+          </section>
+          <section>
+            <h2>Survive</h2>
+            <p> - :help</p>
+          </section>
+        </section>
 
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
-        <span class="try">caocao</span>
-        <h1>Self-intro<sup></sup></h1>
-        <span class="footnote">by chengpeng</span>
-    </div>
+        <section>
+          <section>
+            <h2>Learn vim Progressively</h2>
+            <p>Survive</p>
+            <p class="fragment grow highlight-green">Feel Comportable</p>
+            <p>Feel Better, Stronger, Faster</p>
+            <p>Use Superpowers of Vim</p>
+          </section>
+          <section>
+            <h3>Feel Comportable - Insert</h3>
+            <p class="fragment grow"> - a</p>
+            <p class="fragment grow"> - o</p>
+            <p class="fragment grow"> - O</p>
+            <p class="fragment grow"> - cw</p>
+          </section>
+          <section>
+            <h3>Feel Comportable - Moves</h3>
+            <p class="fragment grow"> - 0</p>
+            <p class="fragment grow"> - ^</p>
+            <p class="fragment grow"> - $</p>
+            <p class="fragment grow"> - g</p>
+            <p class="fragment grow"> - /pattern</p>
+          </section>
+          <section>
+            <h3>Feel Comportable - Copy/Paste</h3>
+            <p class="fragment grow"> - P</p>
+            <p class="fragment grow"> - yy</p>
+          </section>
+          <section>
+            <h3>Feel Comportable - Undo/Redo</h3>
+            <p class="fragment grow"> - u</p>
+            <p class="fragment grow"> - &lt;C-r&gt;</p>
+          </section>
+        </section>
 
-    <div id="Basic" class="step" data-x="2800" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p><b>173CM<br>60KG<br>90-70-90</b></p>
-    </div>
+        <section>
+          <section>
+            <h2>Learn vim Progressively</h2>
+            <p>Survive</p>
+            <p>Feel Comportable</p>
+            <p class="fragment grow highlight-green">Feel Better, Stronger, Faster</p>
+            <p>Use Superpowers of Vim</p>
+          </section>
+          <section>
+            <h2>Better</h2>
+            <p class="fragment grow"> - .</p>
+            <p class="fragment grow highlight-green"> - N&lt;command&gt;</p>
+            <p class="fragment grow"> - 2dd</p>
+            <p class="fragment grow"> - 3p</p>
+            <p class="fragment grow"> - 100idesu[ESC] -&gt; . -&gt;3.</p>
+          </section>
+          <section>
+            <h2></h2>
+            <p class="fragment grow"> - NG</p>
+            <p class="fragment grow"> - gg</p>
+            <p class="fragment grow"> - G</p>
+            <p class="fragment grow"> - e, w, E, W</p>
+            <p class="fragment grow"> - %, *, #</p>
+          </section>
+          <section>
+            <h2>Faster</h2>
+            <p class="fragment grow"> - &lt;start position&gt;&lt;command&gt;&lt;end position&gt;</p>
+            <p class="fragment grow"> - 0y$</p>
+            <p class="fragment grow"> - d</p>
+          </section>
+        </section>
 
-    <div id="passive-act" class="step" data-x="3500" data-y="2325" data-z="-3000" data-rotate="280" data-scale="1">
-        <p>My hometown is <b class="rotating">QHD.</b><br>And I am <b class="rotating">married.</b></p>
-    </div>
+        <section>
+          <section>
+            <h2>Learn vim Progressively</h2>
+            <p>Survive</p>
+            <p>Feel Comportable</p>
+            <p>Feel Better, Stronger, Faster</p>
+            <p class="fragment grow highlight-green">Use Superpowers of Vim</p>
+          </section>
+          <section>
+            <h3>Superpowers - move</h3>
+            <p class="fragment grow"> - 0</p>
+            <p class="fragment grow"> - ^</p>
+            <p class="fragment grow"> - $</p>
+            <p class="fragment grow"> - g_</p>
+            <p class="fragment grow"> - fa</p>
+            <p class="fragment grow"> - t,</p>
+            <p class="fragment grow"> - 3fa</p>
+            <p class="fragment grow"> - F and T</p>
+          </section>
+          <section>
+            <h3>Superpowers - zone selection</h3>
+            <p class="fragment grow"> - 0</p>
+            <p class="fragment grow"> - ^</p>
+            <p class="fragment grow"> - $</p>
+            <p class="fragment grow"> - g_</p>
+            <p class="fragment grow"> - fa</p>
+            <p class="fragment grow"> - t,</p>
+            <p class="fragment grow"> - 3fa</p>
+            <p class="fragment grow"> - F and T</p>
+          </section>
+          <section>
+            <h3>Superpowers - select blocks</h3>
+            <p class="fragment grow"> - 0</p>
+            <p class="fragment grow"> - ^</p>
+            <p class="fragment grow"> - $</p>
+            <p class="fragment grow"> - g_</p>
+            <p class="fragment grow"> - fa</p>
+            <p class="fragment grow"> - t,</p>
+            <p class="fragment grow"> - 3fa</p>
+            <p class="fragment grow"> - F and T</p>
+          </section>
+          <section>
+            <h3>Superpowers - ...</h3>
+            <p class="fragment grow"> - split</p>
+            <p class="fragment grow"> - Macros</p>
+            <p class="fragment grow"> - Completion</p>
+          </section>
+        </section>
 
-    <div id="imgABC" class="step" data-x="3600" data-y="1300" data-z="-2500" data-rotate="280" data-scale="0.5" style="width: 300px;">
-        <img src="img/bkhm.jpg" alt="bkhm">
-    </div>
+        <section>
+          <section>
+            <h3>Vim as IDE</h3>
+            <p class="fragment grow">1. Create vimrc file</p>
+            <p class="fragment grow">2. Add some general settings</p>
+            <p class="fragment grow">3. Set up plugin</p>
+            <p class="fragment grow">4. Make vim look good</p>
+            <p class="fragment grow">5. VimL</p>
+          </section>
+          <section>
+            <h3>Vim as IDE - plugins</h3>
+            <p class="fragment grow">plugged</p>
+            <p class="fragment grow">NERDTree & NERDTree tabs</p>
+            <p class="fragment grow">vim-xxxxlanguage e.g. vim-javascript</p>
+            <p class="fragment grow">easymotion</p>
+            <p class="fragment grow">autopairs</p>
+            <p class="fragment grow">youcompleteme</p>
+            <p class="fragment grow">fzf</p>
+            <p class="fragment grow">...</p>
+          </section>
+        </section>
 
-    <div id="WeDontSeeThings" class="step" data-x="3000" data-y="500" data-z="-2500" data-rotate="260" data-scale="1">
-        <p>That is not me, I am the same birthday with him. </p>
-    </div>
+        <section>
+          <h3>Enhance Your IDE</h3>
+          <p class="fragment grow">Vim operations</p>
+          <p class="fragment grow">IdeaVim - IntelliJ IDEA, PyCharm, Android Studio, WebStorm...</p>
+          <p class="fragment grow">Vscode</p>
+          <p class="fragment grow">Eclipse - vrapper</p>
+          <p class="fragment grow">NetBeans - jvi</p>
+        </section>
 
-    <div id="img121314" class="step" data-x="3722" data-y="1236" data-z="-2500" data-rotate="280" data-scale="0.5">
-        <p style="margin-top: 200px; margin-left: -2px; margin-right: 100px; left: -106px; position: relative;">
-          I like football, but I also like swimming and running.
-        </p>
-    </div>
+        <section>
+          <h1>QA</h1>
+        </section>
+			</div>
+		</div>
 
-    <div id="ShuHaRi" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="3">
-        <img src="img/uni.png" alt="" style="width:640px;"><br>
-        I graduated from Northeastern University and obtained a master's degree in computer science.
-    </div>
-
-    <div id="ShuHaRi-Stages" class="step" data-x="3500" data-y="2100" data-rotate="45" data-scale="2">
-        <img src="img/stages.png" alt="Shu Ha Ri Stages" style="max-width:120%;">
-    </div>
-
-    <div id="shu" class="step" data-x="7500" data-y="1500" data-scale="3">
-        <img src="img/fed.jpeg" alt="" style="position: absolute; left: 0; z-index: 1; width: 480px;top:0;">
-        <p style="position: relative; right: -465px; top: -60px;"><b>Front-End developer</b></p>
-    </div>
-    <div id="shu-3" class="step" data-x="8900" data-y="1920" data-scale="3">
-      <p>
-        Front-end development involves the building of webpages and user interfaces for web applications. 
-      </p>
-    </div>
-
-    <div id="sample-1" class="step " data-x="7930" data-y="4000" data-scale="3">
-        <img src="img/architecture.jpg" alt="">
-        <img src="img/yachtquest.jpg" alt="" style="top: 0; position: relative; width: 710px;">
-        <img src="img/sketch.jpg" alt="">
-   </div>
-
-    <div id="Attention" class="step " data-x="11000" data-y="3600" data-scale="3">
-        <p style="font-size: 35px;">- Focus on Learning.</p>
-        <p style="font-size: 35px; margin-top: 25px;">- Invest in your skills.</p>
-        <p style="font-size: 35px; margin-top: 25px;">- Stay active.</p>
-   </div>
-
-    <div id="over" class="step" data-x="8000" data-y="7000" data-scale="10">
-        <b>Over!</b><br>
-    </div>
-
-</div>
-
-<script src="js/impress.js"></script>
-<script>impress().init();</script>
-</body>
+		<script src="http://playwolsey.github.io/revealcommon/lib/js/head.min.js"></script>
+    <script src="http://playwolsey.github.io/revealcommon/js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/markdown/marked.js' },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/markdown/markdown.js' },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/notes/notes.js', async: true },
+					{ src: 'http://playwolsey.github.io/revealcommon/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
