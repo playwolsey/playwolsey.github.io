@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>omi</title>
+    <link rel="icon" href="favicon.gif" type="image/gif">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      body, html {
+        overflow-x: inherit!important;
+        padding: 0;
+        margin: 0 auto;
+        -webkit-tap-highlight-color: rgba(255,255,255,0);
+        width: 100%;
+        font-family: Helvetica;
+        -webkit-overflow-scrolling: touch;
+        max-width: 640px;
+      }
+  
+      .article {
+        width: 100%;
+        background: #fff;
+        padding: 1.2rem 0;
+      }
+      .article-content {
+        padding: 0 .8rem;
+        background: #fff;
+        font-size: 18px;
+        line-height: 32px;
+        width: 100%;
+        word-wrap: break-word;
+        color: #606060;
+        text-align: justify;
+      }
+      .article-content p {
+        padding: 0;
+        margin: 0;
+        word-wrap: break-word;
+      }
+      .article-content .title {
+        text-align: center;
+      }
+      .u-right {
+        text-align: right;
+      }
+    </style>
+</head>
+
+<body>
+  <article class="article">
+    <div class="article-content">
+      <h3 class="title">给omi的一封信</h3>
+      <p>&nbsp;</p>
+      <p>亲爱的omi: </p>
+      <p>&nbsp;</p>
+      <p>
+        眨眼间，你已经四岁了，爸爸祝你生日快乐，岁岁平安，永远开心快乐。
+      </p>
+      <p>&nbsp;</p>
+      <p>
+      四年前那个手忙脚乱的夜晚，仿佛就在昨天。你出生的当晚，你就睁开了一只小眼睛打量着这个世界，打量着我，没多久，你就睁开了眼睛对我笑了，爸爸的心都融化了，感谢上天赐给我一个小天使。
+      </p>
+      <p>&nbsp;</p>
+      <p>现在的你，已经是个满房间跑的小小伙，追风一样的小男孩，骑着滑板车，鞋都不知道磨坏了几双。你已经会拍皮球、玩平衡车、会那么多的英文儿歌，掌握了那么多的汉字，你如此优秀，我真为你骄傲。</p>
+      <p>&nbsp;</p>
+      <p>回忆四年来的点点滴滴，不知道你对你的爸爸是否满意，不知道你在我们这个小家庭是否过的幸福开心。我每天在你的各种世界里穿梭，走进过你的动物丛林，也曾灵魂出窍成金宝每天和你打招呼，时而变成植物时而变成僵尸和你大战，以及近期冒充你的各种恐龙爸爸，有时候你也会很认真的和我玩一盘棋，有时你还会很狡猾的骗我站起来只为把我推到……</p>
+      <p>&nbsp;</p>
+      <p>希望未来的你，能够健康快乐的成长，能够真实，实诚，勇敢，坚强……</p>
+      <p>&nbsp;</p>
+      <p>感谢你的到来，感谢你的陪伴，感谢你陪我度过的快乐的每一天，希望有一天，你能长大，能接受自己是个平凡的人，能接受自己的爸爸是个平凡的人，我衷心的祝福你，做一个平凡的人，过着不平凡的一生。</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="u-right">爱你的爸爸</p>
+      <p class="u-right">2020/03/26</p>
+    </div>
+  </article>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';//其中“20”根据你设置的html的font-size属性值做适当的变化
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+</body>
+</html>
